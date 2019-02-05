@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dragon Mandarin - Learn Chinese</string>
+    <string name="flip">Flip</string>
+    <string name="easy">Easy</string>
+    <string name="hard">Hard</string>
+    <string name="search">Search</string>
+    <string name="show">Show</string>
+    <string name="hint">Hint</string>
+    <string name="quiz">Quiz</string>
+    <string name="animate">Animate</string>
+    <string name="next">Ok!</string>
+</resources>

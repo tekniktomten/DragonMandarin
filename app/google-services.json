@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "89040377366",
+    "firebase_url": "https://dragonmandarin-56dd1.firebaseio.com",
+    "project_id": "dragonmandarin-56dd1",
+    "storage_bucket": "dragonmandarin-56dd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89040377366:android:f382d3170d9ba1ec",
+        "android_client_info": {
+          "package_name": "com.dragon_mandarin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89040377366-ipslgrkvoia5mp0bo1sd82g051c86qke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dragon_mandarin",
+            "certificate_hash": "5954291c9efafc0049e05e252ab9f2649abfcaf9"
+          }
+        },
+        {
+          "client_id": "89040377366-97mp40lb70ah6v7v7t91ua3a2ok4me69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQhYBwDZDq6JVkMRK3aerPgXpnv0yeF4E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89040377366-97mp40lb70ah6v7v7t91ua3a2ok4me69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
