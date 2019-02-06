@@ -36,7 +36,7 @@ public class ChooseFlashcardsActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(ChooseFlashcardsActivity.this, FlashcardsActivity.class);
-                intent.putExtra("chosen flashcards", flashcards.get(position));
+                intent.putExtra("chosen flashcards", position + 1);
                 startActivity(intent);
             }
         });

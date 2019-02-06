@@ -30,6 +30,10 @@ public class HanziActivity extends AppCompatActivity {
 
     private Button animateButton;
 
+    private Button hardButton;
+
+    private Button easyButton;
+
     private Button nextButton;
 
     @Override
@@ -38,8 +42,13 @@ public class HanziActivity extends AppCompatActivity {
         setContentView(R.layout.activity_hanzi);
 
         Intent intent = getIntent();
-        word = (Word) intent.getSerializableExtra("word"); // TODO needs error handling
-        hanzi_array = word.getHanzi().toCharArray();
+        try {
+            word = (Word) intent.getSerializableExtra("word");
+            hanzi_array = word.getHanzi().toCharArray();
+        } catch (NullPointerException e) {
+            word = Utility.getHardWord();
+            hanzi_array = word.getHanzi().toCharArray();
+        }
         hanzi = "" + hanzi_array[++hanzi_index];
         webView = findViewById(R.id.hanziWeb);
         WebSettings webSettings = webView.getSettings();
@@ -88,6 +97,34 @@ public class HanziActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
+        hardButton = findViewById(R.id.hanziHard);
+        hardButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                nextHanzi();
+            }
+        });
+        easyButton = findViewById(R.id.hanziEasy);
+        easyButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Utility.removeHardWord(word);
+                nextHanzi();
+            }
+        });
+    }
+
+    private void nextHanzi() {
+        try {
+            hanzi = "" + hanzi_array[++hanzi_index];
+
+        } catch (IndexOutOfBoundsException e) {
+            hanzi_index = -1;
+            word = Utility.getHardWord();
+            hanzi_array = word.getHanzi().toCharArray();
+            hanzi = "" + hanzi_array[++hanzi_index];
+        }
+        init();
     }
 
     private void toggle_show() {
@@ -104,5 +141,9 @@ public class HanziActivity extends AppCompatActivity {
 
     private void quiz() {
         webView.loadUrl("javascript:quiz('" + hanzi + "')");
+    }
+
+    private void init() {
+        webView.loadUrl("javascript:init('" + hanzi + "')");
     }
 }

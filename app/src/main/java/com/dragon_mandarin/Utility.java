@@ -1,7 +1,6 @@
 package com.dragon_mandarin;
 
 import android.content.Context;
-import android.util.Log;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -10,9 +9,10 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.List;
 
 public abstract class Utility {
+
+    private static ArrayList<Word> hardWords = new ArrayList<Word>();
 
     public static ArrayList<Word> getCEList(Context context) {
         ArrayList<Word> list = new ArrayList<Word>();
@@ -131,5 +131,29 @@ public abstract class Utility {
             return null;
         }
         return json;
+    }
+
+    public static void newHardWord(Word word) {
+        hardWords.add(word);
+    }
+
+    public static void removeHardWord(Word word) {
+        ArrayList<Word> to_remove = new ArrayList<Word>();
+        for (Word w : hardWords) {
+            if (w.getHanzi().equals(word.getHanzi())) {
+                to_remove.add(w);
+            }
+        }
+        for (Word w : to_remove) {
+            hardWords.remove(w);
+        }
+    }
+
+    public static Word getHardWord() { //
+        try {
+            return hardWords.get((int) (Math.random() * (hardWords.size() - 1)));
+        } catch (IndexOutOfBoundsException e) {
+            return new Word("我", "wǒ", "I; me; my", "", ""); // TODO replace
+        }
     }
 }
