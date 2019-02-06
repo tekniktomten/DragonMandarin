@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, DictionaryActivity.class);
                 startActivity(intent);
+                overridePendingTransition( 0, R.anim.my_splash_fade_out );
             }
         });
         hanziButton = findViewById(R.id.hanzi);
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, HanziActivity.class);
                 startActivity(intent);
+                overridePendingTransition( 0, R.anim.my_splash_fade_out );
             }
         });
         flashcardsButton = findViewById(R.id.flashcards);
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ChooseFlashcardsActivity.class);
                 startActivity(intent);
+                overridePendingTransition( 0, R.anim.my_splash_fade_out );
             }
         });
     }

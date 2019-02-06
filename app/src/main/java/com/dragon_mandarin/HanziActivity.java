@@ -146,4 +146,10 @@ public class HanziActivity extends AppCompatActivity {
     private void init() {
         webView.loadUrl("javascript:init('" + hanzi + "')");
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition( 0, R.anim.my_splash_fade_out );
+    }
 }

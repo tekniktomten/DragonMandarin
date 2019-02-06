@@ -41,4 +41,10 @@ public class ChooseFlashcardsActivity extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition( 0, R.anim.my_splash_fade_out );
+    }
 }
