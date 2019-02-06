@@ -24,8 +24,6 @@ public class ChooseFlashcardsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_flashcards);
 
-        Utility.getHskList(1, this);
-
         listView = findViewById(R.id.chooseFlashcardsList);
         List<String> your_array_list = flashcards;
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(

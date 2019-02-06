@@ -1,45 +1,47 @@
 package com.dragon_mandarin;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.widget.EditText;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class DictionaryActivity extends AppCompatActivity {
 
     private ListView listView;
 
-    private EditText search;
-
-    WordListAdapter list;
+    ArrayList<String> list = new ArrayList<String>(Arrays.asList("HSK 1", "HSK 2", "HSK 3", "HSK 4", "HSK 5", "HSK 6", "Dictionary"));
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dictionary);
 
-        list = new WordListAdapter(this, Utility.getAllHskList(this));
-        listView = findViewById(R.id.wordList);
-        listView.setAdapter(list);
-        search = findViewById(R.id.searchDictionary);
-        search.addTextChangedListener(new TextWatcher() {
+        listView = findViewById(R.id.dictList);
+        List<String> array_list = list;
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
+                this,
+                android.R.layout.simple_list_item_1,
+                array_list );
+
+        listView.setAdapter(arrayAdapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                list.getFilter().filter(s.toString());
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if (position < 6) {
+                    Intent intent = new Intent(DictionaryActivity.this, HSKActivity.class);
+                    intent.putExtra("hsk", position + 1);
+                    startActivity(intent);
+                } else {
+                    Intent intent = new Intent(DictionaryActivity.this, CEActivity.class);
+                    startActivity(intent);
+                }
             }
         });
     }

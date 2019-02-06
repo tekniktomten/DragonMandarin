@@ -14,6 +14,23 @@ import java.util.List;
 
 public abstract class Utility {
 
+    public static ArrayList<Word> getCEList(Context context) {
+        ArrayList<Word> list = new ArrayList<Word>();
+        JSONArray jsonArray = getCEJsonArray(context);
+        try {
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject word = jsonArray.getJSONObject(i);
+                String hanzi = word.getString("Simplified");
+                String pinyin = word.getString("Pinyin");
+                String translations = word.getString("Definition");
+                list.add(new Word(hanzi, pinyin, translations, "", ""));
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
+
     public static ArrayList<Word> getHskList(int number, Context context) {
         ArrayList<Word> list = new ArrayList<Word>();
         JSONArray jsonArray = getHskJsonArray(number, context);
@@ -83,6 +100,16 @@ public abstract class Utility {
     public static JSONArray getAllHskJsonArray(Context context) {
         try {
             JSONArray jsonArray = new JSONArray(readJSONFromAsset("hsk.json", context));
+            return jsonArray;
+        } catch (JSONException e) {
+            e.printStackTrace();
+            return null; // TODO maybe not
+        }
+    }
+
+    public static JSONArray getCEJsonArray(Context context) {
+        try {
+            JSONArray jsonArray = new JSONArray(readJSONFromAsset("cedict.json", context));
             return jsonArray;
         } catch (JSONException e) {
             e.printStackTrace();

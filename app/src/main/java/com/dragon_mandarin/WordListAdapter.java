@@ -112,4 +112,8 @@ public class WordListAdapter extends ArrayAdapter<Object> implements Filterable 
             }
         };
     }
+
+    public int getNumberOfWords() {
+        return words.size();
+    }
 }

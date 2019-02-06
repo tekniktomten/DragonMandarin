@@ -12,11 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WordActivity"></activity>
+        <activity android:name=".CEActivity"></activity>
+        <activity android:name=".DictionaryActivity" />
+        <activity android:name=".WordActivity" />
         <activity android:name=".ChooseFlashcardsActivity" />
         <activity android:name=".FlashcardsActivity" />
         <activity android:name=".HanziActivity" />
-        <activity android:name=".DictionaryActivity" />
+        <activity android:name=".HSKActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
