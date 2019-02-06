@@ -14,7 +14,7 @@ import java.util.List;
 
 public abstract class Utility {
 
-    public static ArrayList<Word> getHskList(int number, Context context) { // TODO should return words
+    public static ArrayList<Word> getHskList(int number, Context context) {
         ArrayList<Word> list = new ArrayList<Word>();
         JSONArray jsonArray = getHskJsonArray(number, context);
         try {
@@ -22,8 +22,19 @@ public abstract class Utility {
                 JSONObject word = jsonArray.getJSONObject(i);
                 String hanzi = word.getString("hanzi");
                 String pinyin = word.getString("pinyin");
-                String translations = word.getJSONArray("translations").toString();
-                list.add(new Word(hanzi, pinyin, translations, "", ""));
+                JSONArray t = word.getJSONArray("translations");
+                String measureWord = "";
+                String translations = "";
+                for (int j = 0; j < t.length(); j++) {
+                    String info = t.getString(j);
+                    if (info.contains("[") || info.contains("CL:")) { // TODO not working 100%
+                        measureWord += " " + info;
+                    }
+                    else {
+                        translations += " " + info;
+                    }
+                }
+                list.add(new Word(hanzi, pinyin, translations, "", measureWord));
             }
         } catch (JSONException e) {
             e.printStackTrace();
@@ -31,7 +42,7 @@ public abstract class Utility {
         return list;
     }
 
-    public static ArrayList<Word> getAllHskList(Context context) { // TODO should return words
+    public static ArrayList<Word> getAllHskList(Context context) { // TODO Duplicate code move to method
         ArrayList<Word> list = new ArrayList<Word>();
         JSONArray jsonArray = getAllHskJsonArray(context);
         try {
@@ -39,8 +50,19 @@ public abstract class Utility {
                 JSONObject word = jsonArray.getJSONObject(i);
                 String hanzi = word.getString("hanzi");
                 String pinyin = word.getString("pinyin");
-                String translations = word.getJSONArray("translations").toString();
-                list.add(new Word(hanzi, pinyin, translations, "", ""));
+                JSONArray t = word.getJSONArray("translations");
+                String measureWord = "";
+                String translations = "";
+                for (int j = 0; j < t.length(); j++) {
+                    String info = t.getString(j);
+                    if (info.contains("[") || info.contains("CL:")) {
+                        measureWord += " " + info;
+                    }
+                    else {
+                        translations += " " + info;
+                    }
+                }
+                list.add(new Word(hanzi, pinyin, translations, "", measureWord));
             }
         } catch (JSONException e) {
             e.printStackTrace();

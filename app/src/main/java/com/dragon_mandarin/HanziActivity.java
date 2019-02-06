@@ -1,5 +1,6 @@
 package com.dragon_mandarin;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -36,7 +37,8 @@ public class HanziActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hanzi);
 
-        word = new Word("子", "zǐ","Son / Child", "", "个");
+        Intent intent = getIntent();
+        word = (Word) intent.getSerializableExtra("word"); // TODO needs error handling
         hanzi_array = word.getHanzi().toCharArray();
         hanzi = "" + hanzi_array[++hanzi_index];
         webView = findViewById(R.id.hanziWeb);
