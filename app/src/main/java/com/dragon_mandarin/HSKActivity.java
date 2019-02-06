@@ -24,8 +24,8 @@ public class HSKActivity extends AppCompatActivity {
         setContentView(R.layout.activity_hsk);
 
         Intent intent = getIntent();
-        number = intent.getIntExtra("hsk", 0);
-        if (number == 0) list = new WordListAdapter(this, Utility.getAllHskList(this));
+        number = intent.getIntExtra("hsk", 7);
+        if (number == 7) list = new WordListAdapter(this, Utility.getAllHskList(this));
         else list = new WordListAdapter(this, Utility.getHskList(number, this));
         listView = findViewById(R.id.wordList);
         listView.setAdapter(list);

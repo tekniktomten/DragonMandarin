@@ -32,8 +32,12 @@ public class FlashcardsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_flashcards);
 
         Intent intent = getIntent();
-        chosen_flashcards = intent.getIntExtra("chosen flashcards", 0);
-        words = Utility.getHskList(chosen_flashcards, this);
+        chosen_flashcards = intent.getIntExtra("chosen flashcards", 1);
+        if (chosen_flashcards == 7) words = Utility.getAllHskList(this);
+        else if (chosen_flashcards < 7) words = Utility.getHskList(chosen_flashcards, this);
+        else if (chosen_flashcards == 8) {
+            words = Word.readFromFavoritesFile(this);
+        }
         scrambled_words = new ArrayList<Word>(words);
         Collections.shuffle(scrambled_words);
         cardView = findViewById(R.id.card_view);
@@ -104,7 +108,7 @@ public class FlashcardsActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         try {
-                            Thread.sleep(2000); // As I am using LENGTH_LONG in Toast
+                            Thread.sleep(1000);
                             startActivity(intent);
                         } catch (Exception e) {
                             e.printStackTrace();

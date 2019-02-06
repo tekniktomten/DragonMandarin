@@ -16,7 +16,7 @@ public class DictionaryActivity extends AppCompatActivity {
 
     private ListView listView;
 
-    ArrayList<String> list = new ArrayList<String>(Arrays.asList("HSK 1", "HSK 2", "HSK 3", "HSK 4", "HSK 5", "HSK 6", "Dictionary"));
+    ArrayList<String> list = new ArrayList<String>(Arrays.asList("HSK 1", "HSK 2", "HSK 3", "HSK 4", "HSK 5", "HSK 6", "HSK 1-6", "Dictionary", "Favorites"));
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,12 +34,15 @@ public class DictionaryActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position < 6) {
+                if (position < 7) {
                     Intent intent = new Intent(DictionaryActivity.this, HSKActivity.class);
                     intent.putExtra("hsk", position + 1);
                     startActivity(intent);
-                } else {
+                } else if (position == 7) {
                     Intent intent = new Intent(DictionaryActivity.this, CEActivity.class);
+                    startActivity(intent);
+                } else if (position == 8) {
+                    Intent intent = new Intent(DictionaryActivity.this, FavoritesActivity.class);
                     startActivity(intent);
                 }
             }

@@ -17,7 +17,7 @@ public class ChooseFlashcardsActivity extends AppCompatActivity {
 
     ListView listView;
 
-    ArrayList<String> flashcards = new ArrayList<String>(Arrays.asList("HSK 1", "HSK 2", "HSK 3", "HSK 4", "HSK 5", "HSK 6", "Favorites", "Difficult"));
+    ArrayList<String> flashcards = new ArrayList<String>(Arrays.asList("HSK 1", "HSK 2", "HSK 3", "HSK 4", "HSK 5", "HSK 6", "HSK 1-6", "Favorites", "Difficult"));
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
