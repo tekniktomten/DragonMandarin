@@ -68,7 +68,8 @@ public class TessOCR {
     }
 
     public String getOCRResult(Bitmap bitmap) {
-        mTess.setImage(bitmap); return mTess.getUTF8Text();
+        mTess.setImage(bitmap);
+        return mTess.getUTF8Text();
     }
 
     public void onDestroy() {

@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/ocrImage"
-        android:layout_width="300dp"
-        android:layout_height="300dp" />
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
 
     <TextView
         android:id="@+id/ocrResult"
