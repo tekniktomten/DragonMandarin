@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
 
     private FloatingActionButton flashcardsButton;
 
+    private FloatingActionButton ocrButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +45,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ChooseFlashcardsActivity.class);
+                startActivity(intent);
+                overridePendingTransition( 0, R.anim.my_splash_fade_out );
+            }
+        });
+        ocrButton = findViewById(R.id.ocr);
+        ocrButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, OCRActivity.class);
                 startActivity(intent);
                 overridePendingTransition( 0, R.anim.my_splash_fade_out );
             }
