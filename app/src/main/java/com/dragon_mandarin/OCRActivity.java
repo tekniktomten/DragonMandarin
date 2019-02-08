@@ -146,7 +146,8 @@ public class OCRActivity extends AppCompatActivity {
                     try {
                         Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), selectedImage);
                         bitmap = imageOreintationValidator(bitmap, getRealPathFromURI(selectedImage));
-                        Bitmap resized = Bitmap.createScaledBitmap(bitmap, ocrImage.getWidth(), ocrImage.getHeight(), true);
+                        int width = bitmap.getWidth();
+                        Bitmap resized = Bitmap.createScaledBitmap(bitmap, ocrImage.getWidth(), bitmap.getHeight() * ocrImage.getWidth() / width, true);
                         ocrImage.setImageBitmap(resized);
                         doOCR(resized);
                     } catch (IOException e) {
@@ -154,7 +155,8 @@ public class OCRActivity extends AppCompatActivity {
                     }
                     break;
                 case CAMERA_REQUEST:
-                    /*Bundle extras = data.getExtras();
+                    /*Bundle extra
+                    s = data.getExtras();
                     Bitmap imageBitmap = (Bitmap) extras.get("data");
                     ocrImage.setImageBitmap(imageBitmap);
                     doOCR(imageBitmap);*/
@@ -208,12 +210,17 @@ public class OCRActivity extends AppCompatActivity {
                     public void run() {
                         // TODO Auto-generated method stub
                         if (srcText != null && !srcText.equals("")) {
-                            ocrResult.setText(srcText);
+                            ocrResult.setText(srcText.replaceAll("[ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖabcdefghijklmnopqrstuvwxyzåäö0123456789|&%/,*~^¨#]", ""));
                         }
-                        mTessOCR.onDestroy();
                     }
                 });
             }
         }).start();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mTessOCR.onDestroy();
     }
 }

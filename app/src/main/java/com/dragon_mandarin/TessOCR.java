@@ -62,7 +62,7 @@ public class TessOCR {
         }
 
         mTess = new TessBaseAPI();
-        mTess.setDebug(true);
+        //mTess.setDebug(true);
         mTess.init(DATA_PATH, lang);
 
     }
