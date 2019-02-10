@@ -11,6 +11,6 @@
     <string name="next">Ok!</string>
     <string name="write">Write</string>
     <string name="title_activity_favorites">FavoritesActivity</string>
-    <string name="ocrGallery">OCR</string>
-    <string name="ocrCamera">Camera OCR</string>
+    <string name="ocrGallery">OCR from Gallery</string>
+    <string name="ocrCamera">OCR from camera</string>
 </resources>

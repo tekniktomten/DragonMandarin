@@ -12,9 +12,10 @@
 
         <TextView
             android:id="@+id/hanziTitle"
+            android:textSize="20sp"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +24,6 @@
             android:id="@+id/hanziWeb"
             android:layout_width="332sp"
             android:layout_height="332sp"
-            android:layout_marginTop="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/hanziTitle" />
@@ -43,14 +43,14 @@
                 android:gravity="center">
                 <Button
                     android:id="@+id/hanziQuizButton"
-                    android:layout_width="128sp"
+                    android:layout_width="100sp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
                     android:text="@string/quiz" />
                 <Button
                     android:id="@+id/hanziHintButton"
-                    android:layout_width="128sp"
+                    android:layout_width="100sp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
@@ -63,14 +63,14 @@
                 android:gravity="center">
                 <Button
                     android:id="@+id/hanziShowButton"
-                    android:layout_width="128sp"
+                    android:layout_width="100sp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
                     android:text="@string/show" />
                 <Button
                     android:id="@+id/hanziAnimateButton"
-                    android:layout_width="128sp"
+                    android:layout_width="100sp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
@@ -83,32 +83,29 @@
                 android:gravity="center">
                 <Button
                     android:id="@+id/hanziHard"
-                    android:layout_width="128sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
                     android:text="@string/hard" />
+
+                <Button
+                    android:id="@+id/hanziNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/next" />
+
                 <Button
                     android:id="@+id/hanziEasy"
-                    android:layout_width="128sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
                     android:text="@string/easy" />
             </LinearLayout>
         </LinearLayout>
-
-        <Button
-            android:id="@+id/hanziNext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="32sp"
-            android:text="@string/next"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
 
     </android.support.constraint.ConstraintLayout>
 

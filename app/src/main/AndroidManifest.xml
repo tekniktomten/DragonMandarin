@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OCRActivity"></activity>
+        <activity android:name=".ChooseHanziActivity"></activity>
+        <activity android:name=".OCRActivity" />
         <activity android:name=".FavoritesActivity" />
         <activity android:name=".CEActivity" />
         <activity android:name=".DictionaryActivity" />
@@ -30,6 +31,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.dragon_mandarin.fileprovider"
@@ -37,9 +39,8 @@
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths"></meta-data>
+                android:resource="@xml/file_paths" />
         </provider>
-
     </application>
 
 </manifest>

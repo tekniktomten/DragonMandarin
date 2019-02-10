@@ -1,5 +1,6 @@
 package com.dragon_mandarin;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -32,6 +33,7 @@ public class OCRActivity extends AppCompatActivity {
     private TessOCR mTessOCR;
     private ImageView ocrImage;
     private Uri photoURI;
+    private int resolution = 500;
 
     public static final int GALLERY_REQUEST = 1998;
     public static final int CAMERA_REQUEST = 1995;
@@ -48,6 +50,7 @@ public class OCRActivity extends AppCompatActivity {
         ocrGalleryButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                ocrResult.setText("");
                 Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
                 photoPickerIntent.setType("image/*");
                 startActivityForResult(photoPickerIntent, GALLERY_REQUEST);
@@ -61,6 +64,7 @@ public class OCRActivity extends AppCompatActivity {
                 if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
                     startActivityForResult(takePictureIntent, CAMERA_REQUEST);
                 }*/
+                ocrResult.setText("");
                 Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 // Ensure that there's a camera activity to handle the intent
                 if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
@@ -149,40 +153,20 @@ public class OCRActivity extends AppCompatActivity {
                         int width = bitmap.getWidth();
                         Bitmap resized = Bitmap.createScaledBitmap(bitmap, ocrImage.getWidth(), bitmap.getHeight() * ocrImage.getWidth() / width, true);
                         ocrImage.setImageBitmap(resized);
-                        doOCR(resized);
+                        Bitmap forOCR = Bitmap.createScaledBitmap(bitmap, resolution, bitmap.getHeight() * resolution / width, true); // 300 is the resolution
+                        doOCR(forOCR);
                     } catch (IOException e) {
                         Log.i("TAG", "Some exception " + e);
                     }
                     break;
                 case CAMERA_REQUEST:
-                    /*Bundle extra
-                    s = data.getExtras();
-                    Bitmap imageBitmap = (Bitmap) extras.get("data");
-                    ocrImage.setImageBitmap(imageBitmap);
-                    doOCR(imageBitmap);*/
-                    int targetW = ocrImage.getWidth();
-                    int targetH = ocrImage.getHeight();
-
-                    // Get the dimensions of the bitmap
-                    BitmapFactory.Options bmOptions = new BitmapFactory.Options();
-                    bmOptions.inJustDecodeBounds = true;
-                    BitmapFactory.decodeFile(mCurrentPhotoPath, bmOptions);
-                    int photoW = bmOptions.outWidth;
-                    int photoH = bmOptions.outHeight;
-
-                    // Determine how much to scale down the image
-                    int scaleFactor = Math.min(photoW/targetW, photoH/targetH);
-
-                    // Decode the image file into a Bitmap sized to fill the View
-                    bmOptions.inJustDecodeBounds = false;
-                    bmOptions.inSampleSize = scaleFactor;
-
-                    Bitmap bitmap = BitmapFactory.decodeFile(mCurrentPhotoPath, bmOptions);
-                    ocrImage.setImageBitmap(bitmap);
-
+                    Bitmap bitmap = BitmapFactory.decodeFile(mCurrentPhotoPath);
                     bitmap = imageOreintationValidator(bitmap, mCurrentPhotoPath);
-                    ocrImage.setImageBitmap(bitmap);
-                    doOCR(bitmap);
+                    int width = bitmap.getWidth();
+                    Bitmap resized = Bitmap.createScaledBitmap(bitmap, ocrImage.getWidth(), bitmap.getHeight() * ocrImage.getWidth() / width, true);
+                    ocrImage.setImageBitmap(resized);
+                    Bitmap forOCR = Bitmap.createScaledBitmap(bitmap, resolution, bitmap.getHeight() * resolution / width, true);
+                    doOCR(forOCR);
             }
     }
 
@@ -202,6 +186,13 @@ public class OCRActivity extends AppCompatActivity {
     }
 
     private void doOCR (final Bitmap bitmap) {
+        final ProgressDialog dialog = new ProgressDialog(this);
+        dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        dialog.setTitle("Processing OCR");
+        dialog.setMessage("Please wait");
+        dialog.setIndeterminate(true);
+        dialog.setCanceledOnTouchOutside(false);
+        dialog.show();
         new Thread(new Runnable() {
             public void run() {
                 final String srcText = mTessOCR.getOCRResult(bitmap);
@@ -212,6 +203,7 @@ public class OCRActivity extends AppCompatActivity {
                         if (srcText != null && !srcText.equals("")) {
                             ocrResult.setText(srcText.replaceAll("[ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖabcdefghijklmnopqrstuvwxyzåäö0123456789|&%/,*~^¨#]", ""));
                         }
+                        dialog.dismiss();
                     }
                 });
             }

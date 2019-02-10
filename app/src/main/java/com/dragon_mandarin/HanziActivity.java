@@ -9,6 +9,9 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class HanziActivity extends AppCompatActivity {
 
@@ -19,6 +22,10 @@ public class HanziActivity extends AppCompatActivity {
     private String hanzi;
 
     private int hanzi_index = -1;
+
+    private int word_index = -1;
+
+    private TextView textView;
 
     private WebView webView;
 
@@ -36,20 +43,50 @@ public class HanziActivity extends AppCompatActivity {
 
     private Button nextButton;
 
+    private ArrayList<Word> words;
+
+    private int chooseHanziItem;
+    private boolean intentIsChooseHanziItem = false;
+    private boolean intentIsWordList = false;
+    private boolean intentIsWord = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hanzi);
 
         Intent intent = getIntent();
-        try {
-            word = (Word) intent.getSerializableExtra("word");
-            hanzi_array = word.getHanzi().toCharArray();
-        } catch (NullPointerException e) {
-            word = Utility.getHardWord();
-            hanzi_array = word.getHanzi().toCharArray();
+        chooseHanziItem = intent.getIntExtra("chooseHanziItem", 0);
+        if (chooseHanziItem != 0) intentIsChooseHanziItem = true;
+        ArrayList<Word> chosenWordList = (ArrayList<Word>) intent.getSerializableExtra("wordList");
+        if (chosenWordList != null) intentIsWordList = true;
+        Word chosenWord = (Word) intent.getSerializableExtra("word");
+        if (chosenWord != null) intentIsWord = true;
+
+        if (intentIsChooseHanziItem) {
+            words = null;
+            if (chooseHanziItem == 7) words = Utility.getAllHskList(this);
+            else if (chooseHanziItem < 7) words = Utility.getHskList(chooseHanziItem, this);
+            else if (chooseHanziItem == 8) {
+                words = Word.readFromFavoritesFile(this);
+            } else if (chooseHanziItem == 9) {
+                words = Utility.gethardWords();
+            } else {
+                // TODO
+            }
+        } else if (intentIsWordList) {
+
+        } else if (intentIsWord) {
+
+        } else {
+            // TODO
         }
+
+        hanzi_array = words.get(++word_index).getHanzi().toCharArray();
         hanzi = "" + hanzi_array[++hanzi_index];
+
+        textView = findViewById(R.id.hanziTitle);
+        textView.setText(words.get(word_index).getPinyin());
         webView = findViewById(R.id.hanziWeb);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
@@ -117,14 +154,37 @@ public class HanziActivity extends AppCompatActivity {
     private void nextHanzi() {
         try {
             hanzi = "" + hanzi_array[++hanzi_index];
+            init();
 
         } catch (IndexOutOfBoundsException e) {
             hanzi_index = -1;
-            word = Utility.getHardWord();
-            hanzi_array = word.getHanzi().toCharArray();
-            hanzi = "" + hanzi_array[++hanzi_index];
+
+            if (intentIsWordList) {
+
+            }
+
+            if (intentIsChooseHanziItem) {
+                if (chooseHanziItem == 0) {
+                    // TODO
+                }
+                else if (chooseHanziItem < 9) {
+                    try {
+                        hanzi_array = words.get(++word_index).getHanzi().toCharArray();
+                        hanzi = "" + hanzi_array[++hanzi_index];
+                        init();
+                    } catch (IndexOutOfBoundsException i) {
+                        onBackPressed();
+                    }
+                }
+                else if (chooseHanziItem == 9) { // TODO bad idea to hard code
+                    word = Utility.getHardWord();
+                    hanzi_array = word.getHanzi().toCharArray();
+                    hanzi = "" + hanzi_array[++hanzi_index];
+
+                    init();
+                }
+            }
         }
-        init();
     }
 
     private void toggle_show() {
@@ -145,6 +205,7 @@ public class HanziActivity extends AppCompatActivity {
 
     private void init() {
         webView.loadUrl("javascript:init('" + hanzi + "')");
+        textView.setText(words.get(word_index).getPinyin());
     }
 
     @Override

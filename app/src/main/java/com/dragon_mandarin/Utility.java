@@ -156,4 +156,8 @@ public abstract class Utility {
             return new Word("我", "wǒ", "I; me; my", "", ""); // TODO replace
         }
     }
+
+    public static ArrayList<Word> gethardWords() {
+        return new ArrayList<Word>(hardWords);
+    }
 }

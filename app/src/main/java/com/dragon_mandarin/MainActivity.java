@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         hanziButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, HanziActivity.class);
+                Intent intent = new Intent(MainActivity.this, ChooseHanziActivity.class);
                 startActivity(intent);
                 overridePendingTransition( 0, R.anim.my_splash_fade_out );
             }
