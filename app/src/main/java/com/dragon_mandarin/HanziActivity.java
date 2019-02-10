@@ -1,15 +1,19 @@
 package com.dragon_mandarin;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
+import android.webkit.JavascriptInterface;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -49,6 +53,8 @@ public class HanziActivity extends AppCompatActivity {
     private boolean intentIsChooseHanziItem = false;
     private boolean intentIsWordList = false;
     private boolean intentIsWord = false;
+
+    private WebAppInterface webAppInterface;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,6 +106,8 @@ public class HanziActivity extends AppCompatActivity {
                 }
             }
         });
+        webAppInterface = new WebAppInterface(this);
+        webView.addJavascriptInterface(webAppInterface, "Android");
         quizButton = findViewById(R.id.hanziQuizButton);
         quizButton.setOnClickListener(new View.OnClickListener()  {
             @Override
@@ -118,7 +126,7 @@ public class HanziActivity extends AppCompatActivity {
         showButton.setOnClickListener(new View.OnClickListener()  {
             @Override
             public void onClick(View v) {
-                toggle_show();
+                if (!webAppInterface.quizIsUndergoing) toggle_show();
             }
         });
         animateButton = findViewById(R.id.hanziAnimateButton);
@@ -151,6 +159,8 @@ public class HanziActivity extends AppCompatActivity {
             }
         });
     }
+
+
 
     private void nextHanzi() {
         try {
@@ -213,5 +223,48 @@ public class HanziActivity extends AppCompatActivity {
     public void onBackPressed() {
         super.onBackPressed();
         overridePendingTransition( 0, R.anim.my_splash_fade_out );
+    }
+
+    public class WebAppInterface {
+        Context mContext;
+
+        int numberOfMistakes;
+        int numberOfTries;
+        int numberOfStrokes;
+
+        boolean quizIsUndergoing;
+
+        /** Instantiate the interface and set the context */
+        WebAppInterface(Context c) {
+            mContext = c;
+        }
+
+        @JavascriptInterface
+        public void newQuiz() {
+            numberOfMistakes = 0;
+            numberOfTries = 0;
+            numberOfStrokes = 0;
+            quizIsUndergoing = true;
+        }
+
+        @JavascriptInterface
+        public void incorrectStroke() {
+            if (++numberOfTries == 3) numberOfMistakes++;
+        }
+
+        @JavascriptInterface
+        public void correctStroke() {
+            numberOfTries = 0;
+            ++numberOfStrokes;
+        }
+
+        @JavascriptInterface
+        public void quizCompleted() {
+            quizIsUndergoing = false;
+            Toast toast = Toast.makeText(mContext, "You knew " + Integer.toString(numberOfStrokes - numberOfMistakes) + " out of " + Integer.toString(numberOfStrokes) + " strokes!", Toast.LENGTH_LONG);
+            toast.setGravity(Gravity.TOP, 0, 100);
+            toast.show();
+        }
+
     }
 }

@@ -40,7 +40,18 @@
 			}
 
 			function quiz() {
-				writer.quiz();
+				Android.newQuiz();
+				writer.quiz({
+				onMistake: function(strokeData) {
+					Android.incorrectStroke();
+				},
+				onCorrectStroke: function(strokeData) {
+					Android.correctStroke();
+				},
+				onComplete: function(summaryData) {
+					Android.quizCompleted();
+				}
+				});
 			}
 
 			function quiz_init() {
@@ -56,6 +67,7 @@
 				updateCharacter();
 				isCharVisible = true;
 				isOutlineVisible = true;
+
 			}
 		</script>
 
