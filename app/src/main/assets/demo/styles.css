@@ -1,5 +1,5 @@
 body, html {
-	background: #f4f0ea;
+	background: #ffffff;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -7,8 +7,8 @@ body, html {
 	font-size: 14px;
 }
 body {
-	padding-bottom: 16px;
-	padding-top: 16px;
+	padding-bottom: 0px;
+	padding-top: 0px;
 }
 * {
 	box-sizing: border-box;
@@ -18,7 +18,7 @@ input, button {
 	outline: none;
 }
 button, #target, .title {
-	box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+	box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 }
 
 button, #target {
@@ -28,7 +28,7 @@ button, #target {
 .title {
 	color: white;
 	background: linear-gradient(to bottom, #333, #222);
-	padding: 15px 0;
+	padding: 0px 0;
 	margin: 0 0 30px;
 	text-shadow: 0 0 15px #4B89DB;
 }
@@ -37,10 +37,10 @@ button, #target {
 	background: white;
 	clear: both;
 	border: 1px solid black;
-	width: 300px;
-	height: 300px;
+	width: 310px;
+	height: 310px;
 	margin: 0 auto;
-	padding: 8px;
+	padding: 0px;
 }
 
 .char-form {

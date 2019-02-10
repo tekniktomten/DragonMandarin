@@ -77,7 +77,8 @@ public class HanziActivity extends AppCompatActivity {
         } else if (intentIsWordList) {
 
         } else if (intentIsWord) {
-
+            words = new ArrayList<Word>();
+            words.add(chosenWord);
         } else {
             // TODO
         }
