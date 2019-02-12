@@ -2,6 +2,7 @@
   {
     "id": 301,
     "hanzi": "阿姨",
+    "hanzi_traditional": "阿姨",
     "pinyin": "ā yí",
     "translations": [
       "maternal aunt",
@@ -15,6 +16,7 @@
   {
     "id": 302,
     "hanzi": "啊",
+    "hanzi_traditional": "啊",
     "pinyin": "a",
     "translations": [
       "modal particle ending sentence",
@@ -26,6 +28,7 @@
   {
     "id": 303,
     "hanzi": "矮",
+    "hanzi_traditional": "矮",
     "pinyin": "ǎi",
     "translations": [
       "low",
@@ -35,6 +38,7 @@
   {
     "id": 304,
     "hanzi": "爱好",
+    "hanzi_traditional": "愛好",
     "pinyin": "ài hào",
     "translations": [
       "to like",
@@ -50,6 +54,7 @@
   {
     "id": 305,
     "hanzi": "安静",
+    "hanzi_traditional": "安靜",
     "pinyin": "ān jìng",
     "translations": [
       "quiet",
@@ -60,6 +65,7 @@
   {
     "id": 306,
     "hanzi": "把",
+    "hanzi_traditional": "把",
     "pinyin": "bǎ",
     "translations": [
       "to hold",
@@ -75,6 +81,7 @@
   {
     "id": 307,
     "hanzi": "搬",
+    "hanzi_traditional": "搬",
     "pinyin": "bān",
     "translations": [
       "to move",
@@ -88,6 +95,7 @@
   {
     "id": 308,
     "hanzi": "班",
+    "hanzi_traditional": "班",
     "pinyin": "bān",
     "translations": [
       "team",
@@ -102,6 +110,7 @@
   {
     "id": 309,
     "hanzi": "半",
+    "hanzi_traditional": "半",
     "pinyin": "bàn",
     "translations": [
       "half",
@@ -113,6 +122,7 @@
   {
     "id": 310,
     "hanzi": "办法",
+    "hanzi_traditional": "辦法",
     "pinyin": "bàn fǎ",
     "translations": [
       "means",
@@ -125,6 +135,7 @@
   {
     "id": 311,
     "hanzi": "办公室",
+    "hanzi_traditional": "辦公室",
     "pinyin": "bàn gōng shì",
     "translations": [
       "office",
@@ -136,6 +147,7 @@
   {
     "id": 312,
     "hanzi": "帮忙",
+    "hanzi_traditional": "幫忙",
     "pinyin": "bāng máng",
     "translations": [
       "to help",
@@ -147,6 +159,7 @@
   {
     "id": 313,
     "hanzi": "包",
+    "hanzi_traditional": "包",
     "pinyin": "bāo",
     "translations": [
       "to cover",
@@ -169,6 +182,7 @@
   {
     "id": 314,
     "hanzi": "饱",
+    "hanzi_traditional": "飽",
     "pinyin": "bǎo",
     "translations": [
       "to eat till full",
@@ -178,6 +192,7 @@
   {
     "id": 315,
     "hanzi": "北方",
+    "hanzi_traditional": "北方",
     "pinyin": "běi fāng",
     "translations": [
       "north",
@@ -188,6 +203,7 @@
   {
     "id": 316,
     "hanzi": "被",
+    "hanzi_traditional": "被",
     "pinyin": "bèi",
     "translations": [
       "quilt",
@@ -200,6 +216,7 @@
   {
     "id": 317,
     "hanzi": "鼻子",
+    "hanzi_traditional": "鼻子",
     "pinyin": "bí zi",
     "translations": [
       "nose",
@@ -210,6 +227,7 @@
   {
     "id": 318,
     "hanzi": "比较",
+    "hanzi_traditional": "比較",
     "pinyin": "bǐ jiào",
     "translations": [
       "to compare",
@@ -223,6 +241,7 @@
   {
     "id": 319,
     "hanzi": "比赛",
+    "hanzi_traditional": "比賽",
     "pinyin": "bǐ sài",
     "translations": [
       "competition (sports etc)",
@@ -234,6 +253,7 @@
   {
     "id": 320,
     "hanzi": "必须",
+    "hanzi_traditional": "必須",
     "pinyin": "bì xū",
     "translations": [
       "to have to",
@@ -245,6 +265,7 @@
   {
     "id": 321,
     "hanzi": "变化",
+    "hanzi_traditional": "變化",
     "pinyin": "biàn huà",
     "translations": [
       "change",
@@ -257,6 +278,7 @@
   {
     "id": 322,
     "hanzi": "表示",
+    "hanzi_traditional": "表示",
     "pinyin": "biǎo shì",
     "translations": [
       "to express",
@@ -270,6 +292,7 @@
   {
     "id": 323,
     "hanzi": "表演",
+    "hanzi_traditional": "表演",
     "pinyin": "biǎo yǎn",
     "translations": [
       "play",
@@ -285,6 +308,7 @@
   {
     "id": 324,
     "hanzi": "别人",
+    "hanzi_traditional": "別人",
     "pinyin": "bié ren",
     "translations": [
       "other people",
@@ -295,6 +319,7 @@
   {
     "id": 325,
     "hanzi": "宾馆",
+    "hanzi_traditional": "賓館",
     "pinyin": "bīn guǎn",
     "translations": [
       "guesthouse",
@@ -307,6 +332,7 @@
   {
     "id": 326,
     "hanzi": "冰箱",
+    "hanzi_traditional": "冰箱",
     "pinyin": "bīng xiāng",
     "translations": [
       "icebox",
@@ -319,6 +345,7 @@
   {
     "id": 327,
     "hanzi": "才",
+    "hanzi_traditional": "才",
     "pinyin": "cái",
     "translations": [
       "a moment ago",
@@ -330,6 +357,7 @@
   {
     "id": 328,
     "hanzi": "菜单",
+    "hanzi_traditional": "菜單",
     "pinyin": "cài dān",
     "translations": [
       "menu",
@@ -340,6 +368,7 @@
   {
     "id": 329,
     "hanzi": "参加",
+    "hanzi_traditional": "參加",
     "pinyin": "cān jiā",
     "translations": [
       "to participate",
@@ -350,6 +379,7 @@
   {
     "id": 330,
     "hanzi": "草",
+    "hanzi_traditional": "艸",
     "pinyin": "cǎo",
     "translations": [
       "grass",
@@ -367,6 +397,7 @@
   {
     "id": 331,
     "hanzi": "层",
+    "hanzi_traditional": "層",
     "pinyin": "céng",
     "translations": [
       "layer",
@@ -382,6 +413,7 @@
   {
     "id": 332,
     "hanzi": "差",
+    "hanzi_traditional": "差",
     "pinyin": "chà",
     "translations": [
       "to differ from",
@@ -394,6 +426,7 @@
   {
     "id": 333,
     "hanzi": "超市",
+    "hanzi_traditional": "超市",
     "pinyin": "chāo shì",
     "translations": [
       "supermarket (abbr.)",
@@ -403,6 +436,7 @@
   {
     "id": 334,
     "hanzi": "衬衫",
+    "hanzi_traditional": "襯衫",
     "pinyin": "chèn shān",
     "translations": [
       "shirt",
@@ -413,6 +447,7 @@
   {
     "id": 335,
     "hanzi": "成绩",
+    "hanzi_traditional": "成績",
     "pinyin": "chéng jì",
     "translations": [
       "achievement",
@@ -425,6 +460,7 @@
   {
     "id": 336,
     "hanzi": "城市",
+    "hanzi_traditional": "城市",
     "pinyin": "chéng shì",
     "translations": [
       "city",
@@ -435,6 +471,7 @@
   {
     "id": 337,
     "hanzi": "迟到",
+    "hanzi_traditional": "遲到",
     "pinyin": "chí dào",
     "translations": [
       "to arrive late"
@@ -443,6 +480,7 @@
   {
     "id": 338,
     "hanzi": "出现",
+    "hanzi_traditional": "出現",
     "pinyin": "chū xiàn",
     "translations": [
       "to appear",
@@ -454,6 +492,7 @@
   {
     "id": 339,
     "hanzi": "除了",
+    "hanzi_traditional": "除了",
     "pinyin": "chú le",
     "translations": [
       "besides",
@@ -465,6 +504,7 @@
   {
     "id": 340,
     "hanzi": "厨房",
+    "hanzi_traditional": "廚房",
     "pinyin": "chú fáng",
     "translations": [
       "kitchen",
@@ -474,6 +514,7 @@
   {
     "id": 341,
     "hanzi": "春",
+    "hanzi_traditional": "旾",
     "pinyin": "chūn",
     "translations": [
       "spring (time)",
@@ -488,6 +529,7 @@
   {
     "id": 342,
     "hanzi": "词语",
+    "hanzi_traditional": "詞語",
     "pinyin": "cí yǔ",
     "translations": [
       "word (general term including monosyllables through to short phrases)",
@@ -498,6 +540,7 @@
   {
     "id": 343,
     "hanzi": "聪明",
+    "hanzi_traditional": "聰明",
     "pinyin": "cōng ming",
     "translations": [
       "acute (of sight and hearing)",
@@ -510,6 +553,7 @@
   {
     "id": 344,
     "hanzi": "打扫",
+    "hanzi_traditional": "打掃",
     "pinyin": "dǎ sǎo",
     "translations": [
       "to clean",
@@ -519,6 +563,7 @@
   {
     "id": 345,
     "hanzi": "打算",
+    "hanzi_traditional": "打算",
     "pinyin": "dǎ suàn",
     "translations": [
       "to plan",
@@ -533,6 +578,7 @@
   {
     "id": 346,
     "hanzi": "带",
+    "hanzi_traditional": "帶",
     "pinyin": "dài",
     "translations": [
       "band",
@@ -557,6 +603,7 @@
   {
     "id": 347,
     "hanzi": "担心",
+    "hanzi_traditional": "擔心",
     "pinyin": "dān xīn",
     "translations": [
       "anxious",
@@ -569,6 +616,7 @@
   {
     "id": 348,
     "hanzi": "蛋糕",
+    "hanzi_traditional": "蛋糕",
     "pinyin": "dàn gāo",
     "translations": [
       "cake",
@@ -579,6 +627,7 @@
   {
     "id": 349,
     "hanzi": "当然",
+    "hanzi_traditional": "當然",
     "pinyin": "dāng rán",
     "translations": [
       "only natural",
@@ -591,6 +640,7 @@
   {
     "id": 350,
     "hanzi": "地",
+    "hanzi_traditional": "地",
     "pinyin": "de",
     "translations": [
       "-ly",
@@ -601,6 +651,7 @@
   {
     "id": 351,
     "hanzi": "灯",
+    "hanzi_traditional": "燈",
     "pinyin": "dēng",
     "translations": [
       "lamp",
@@ -612,6 +663,7 @@
   {
     "id": 352,
     "hanzi": "低",
+    "hanzi_traditional": "低",
     "pinyin": "dī",
     "translations": [
       "low",
@@ -625,6 +677,7 @@
   {
     "id": 353,
     "hanzi": "地方",
+    "hanzi_traditional": "地方",
     "pinyin": "dì fang",
     "translations": [
       "area",
@@ -640,6 +693,7 @@
   {
     "id": 354,
     "hanzi": "地铁",
+    "hanzi_traditional": "地鐵",
     "pinyin": "dì tiě",
     "translations": [
       "subway",
@@ -649,6 +703,7 @@
   {
     "id": 355,
     "hanzi": "地图",
+    "hanzi_traditional": "地圖",
     "pinyin": "dì tú",
     "translations": [
       "map",
@@ -659,6 +714,7 @@
   {
     "id": 356,
     "hanzi": "电梯",
+    "hanzi_traditional": "電梯",
     "pinyin": "diàn tī",
     "translations": [
       "elevator",
@@ -670,6 +726,7 @@
   {
     "id": 357,
     "hanzi": "电子",
+    "hanzi_traditional": "電子",
     "pinyin": "diàn zǐ",
     "translations": [
       "electronic",
@@ -679,6 +736,7 @@
   {
     "id": 358,
     "hanzi": "冬",
+    "hanzi_traditional": "冬",
     "pinyin": "dōng",
     "translations": [
       "sound of beating a drum",
@@ -688,6 +746,7 @@
   {
     "id": 359,
     "hanzi": "东",
+    "hanzi_traditional": "東",
     "pinyin": "dōng",
     "translations": [
       "east",
@@ -698,6 +757,7 @@
   {
     "id": 360,
     "hanzi": "动物",
+    "hanzi_traditional": "動物",
     "pinyin": "dòng wù",
     "translations": [
       "animal",
@@ -709,6 +769,7 @@
   {
     "id": 361,
     "hanzi": "短",
+    "hanzi_traditional": "短",
     "pinyin": "duǎn",
     "translations": [
       "short or brief",
@@ -720,6 +781,7 @@
   {
     "id": 362,
     "hanzi": "段",
+    "hanzi_traditional": "段",
     "pinyin": "duàn",
     "translations": [
       "paragraph",
@@ -734,6 +796,7 @@
   {
     "id": 363,
     "hanzi": "锻炼",
+    "hanzi_traditional": "鍛鍊",
     "pinyin": "duàn liàn",
     "translations": [
       "to engage in physical exercise",
@@ -745,6 +808,7 @@
   {
     "id": 364,
     "hanzi": "多么",
+    "hanzi_traditional": "多麼",
     "pinyin": "duō me",
     "translations": [
       "how (wonderful etc)",
@@ -755,6 +819,7 @@
   {
     "id": 365,
     "hanzi": "饿",
+    "hanzi_traditional": "餓",
     "pinyin": "è",
     "translations": [
       "to be hungry",
@@ -764,6 +829,7 @@
   {
     "id": 366,
     "hanzi": "而且",
+    "hanzi_traditional": "而且",
     "pinyin": "ér qiě",
     "translations": [
       "(not only ...) but also",
@@ -775,6 +841,7 @@
   {
     "id": 367,
     "hanzi": "耳朵",
+    "hanzi_traditional": "耳朵",
     "pinyin": "ěr duo",
     "translations": [
       "ear",
@@ -786,6 +853,7 @@
   {
     "id": 368,
     "hanzi": "发烧",
+    "hanzi_traditional": "發燒",
     "pinyin": "fā shāo",
     "translations": [
       "to have a high temperature (from illness)",
@@ -795,6 +863,7 @@
   {
     "id": 369,
     "hanzi": "发现",
+    "hanzi_traditional": "發現",
     "pinyin": "fā xiàn",
     "translations": [
       "to find",
@@ -804,6 +873,7 @@
   {
     "id": 370,
     "hanzi": "方便",
+    "hanzi_traditional": "方便",
     "pinyin": "fāng biàn",
     "translations": [
       "convenient",
@@ -818,6 +888,7 @@
   {
     "id": 371,
     "hanzi": "放",
+    "hanzi_traditional": "放",
     "pinyin": "fàng",
     "translations": [
       "to release",
@@ -832,6 +903,7 @@
   {
     "id": 372,
     "hanzi": "放心",
+    "hanzi_traditional": "放心",
     "pinyin": "fàng xīn",
     "translations": [
       "to feel relieved",
@@ -842,6 +914,7 @@
   {
     "id": 373,
     "hanzi": "分",
+    "hanzi_traditional": "份子",
     "pinyin": "fēn",
     "translations": [
       "to divide",
@@ -860,6 +933,7 @@
   {
     "id": 374,
     "hanzi": "附近",
+    "hanzi_traditional": "附近",
     "pinyin": "fù jìn",
     "translations": [
       "(in the) vicinity",
@@ -871,6 +945,7 @@
   {
     "id": 375,
     "hanzi": "复习",
+    "hanzi_traditional": "復習",
     "pinyin": "fù xí",
     "translations": [
       "variant of 復習|复习",
@@ -882,6 +957,7 @@
   {
     "id": 376,
     "hanzi": "干净",
+    "hanzi_traditional": "乾淨",
     "pinyin": "gān jìng",
     "translations": [
       "clean",
@@ -891,6 +967,7 @@
   {
     "id": 377,
     "hanzi": "敢",
+    "hanzi_traditional": "敢",
     "pinyin": "gǎn",
     "translations": [
       "to dare",
@@ -901,6 +978,7 @@
   {
     "id": 378,
     "hanzi": "感冒",
+    "hanzi_traditional": "感冒",
     "pinyin": "gǎn mào",
     "translations": [
       "to catch cold",
@@ -912,6 +990,7 @@
   {
     "id": 379,
     "hanzi": "刚才",
+    "hanzi_traditional": "剛才",
     "pinyin": "gāng cái",
     "translations": [
       "(just) a moment ago"
@@ -920,6 +999,7 @@
   {
     "id": 380,
     "hanzi": "根据",
+    "hanzi_traditional": "根據",
     "pinyin": "gēn jù",
     "translations": [
       "according to",
@@ -932,6 +1012,7 @@
   {
     "id": 381,
     "hanzi": "跟",
+    "hanzi_traditional": "跟",
     "pinyin": "gēn",
     "translations": [
       "heel",
@@ -948,6 +1029,7 @@
   {
     "id": 382,
     "hanzi": "更",
+    "hanzi_traditional": "更",
     "pinyin": "gèng",
     "translations": [
       "more",
@@ -960,6 +1042,7 @@
   {
     "id": 383,
     "hanzi": "公园",
+    "hanzi_traditional": "公園",
     "pinyin": "gōng yuán",
     "translations": [
       "public park",
@@ -969,6 +1052,7 @@
   {
     "id": 384,
     "hanzi": "故事",
+    "hanzi_traditional": "故事",
     "pinyin": "gù shi",
     "translations": [
       "narrative",
@@ -979,6 +1063,7 @@
   {
     "id": 385,
     "hanzi": "刮",
+    "hanzi_traditional": "刮",
     "pinyin": "guā",
     "translations": [
       "to blow (of the wind)"
@@ -987,6 +1072,7 @@
   {
     "id": 386,
     "hanzi": "关",
+    "hanzi_traditional": "關",
     "pinyin": "guān",
     "translations": [
       "mountain pass",
@@ -1000,6 +1086,7 @@
   {
     "id": 387,
     "hanzi": "关系",
+    "hanzi_traditional": "關係",
     "pinyin": "guān xì",
     "translations": [
       "variant of 關係|关系[guān xì]"
@@ -1008,6 +1095,7 @@
   {
     "id": 388,
     "hanzi": "关心",
+    "hanzi_traditional": "關心",
     "pinyin": "guān xīn",
     "translations": [
       "to care for sth",
@@ -1018,6 +1106,7 @@
   {
     "id": 389,
     "hanzi": "关于",
+    "hanzi_traditional": "關於",
     "pinyin": "guān yú",
     "translations": [
       "pertaining to",
@@ -1031,6 +1120,7 @@
   {
     "id": 390,
     "hanzi": "国家",
+    "hanzi_traditional": "國家",
     "pinyin": "guó jiā",
     "translations": [
       "country",
@@ -1042,6 +1132,7 @@
   {
     "id": 391,
     "hanzi": "果汁",
+    "hanzi_traditional": "果汁",
     "pinyin": "guǒ zhī",
     "translations": [
       "fruit juice"
@@ -1050,6 +1141,7 @@
   {
     "id": 392,
     "hanzi": "过去",
+    "hanzi_traditional": "過去",
     "pinyin": "guò qu",
     "translations": [
       "(in the) past",
@@ -1062,6 +1154,7 @@
   {
     "id": 393,
     "hanzi": "还是",
+    "hanzi_traditional": "還是",
     "pinyin": "hái shi",
     "translations": [
       "or",
@@ -1073,6 +1166,7 @@
   {
     "id": 394,
     "hanzi": "害怕",
+    "hanzi_traditional": "害怕",
     "pinyin": "hài pà",
     "translations": [
       "to be afraid",
@@ -1082,6 +1176,7 @@
   {
     "id": 395,
     "hanzi": "河",
+    "hanzi_traditional": "河",
     "pinyin": "hé",
     "translations": [
       "river",
@@ -1092,6 +1187,7 @@
   {
     "id": 396,
     "hanzi": "黑板",
+    "hanzi_traditional": "黑板",
     "pinyin": "hēi bǎn",
     "translations": [
       "blackboard",
@@ -1102,6 +1198,7 @@
   {
     "id": 397,
     "hanzi": "护照",
+    "hanzi_traditional": "護照",
     "pinyin": "hù zhào",
     "translations": [
       "passport",
@@ -1112,6 +1209,7 @@
   {
     "id": 398,
     "hanzi": "花",
+    "hanzi_traditional": "花",
     "pinyin": "huā",
     "translations": [
       "flower",
@@ -1131,6 +1229,7 @@
   {
     "id": 399,
     "hanzi": "花园",
+    "hanzi_traditional": "花園",
     "pinyin": "huā yuán",
     "translations": [
       "garden",
@@ -1141,6 +1240,7 @@
   {
     "id": 400,
     "hanzi": "画",
+    "hanzi_traditional": "畫",
     "pinyin": "huà",
     "translations": [
       "to draw",
@@ -1153,6 +1253,7 @@
   {
     "id": 401,
     "hanzi": "坏",
+    "hanzi_traditional": "壞",
     "pinyin": "huài",
     "translations": [
       "bad",
@@ -1164,6 +1265,7 @@
   {
     "id": 402,
     "hanzi": "环境",
+    "hanzi_traditional": "環境",
     "pinyin": "huán jìng",
     "translations": [
       "environment",
@@ -1176,6 +1278,7 @@
   {
     "id": 403,
     "hanzi": "换",
+    "hanzi_traditional": "換",
     "pinyin": "huàn",
     "translations": [
       "to change",
@@ -1185,6 +1288,7 @@
   {
     "id": 404,
     "hanzi": "黄",
+    "hanzi_traditional": "黃",
     "pinyin": "huáng",
     "translations": [
       "yellow",
@@ -1195,6 +1299,7 @@
   {
     "id": 405,
     "hanzi": "会议",
+    "hanzi_traditional": "會議",
     "pinyin": "huì yì",
     "translations": [
       "meeting",
@@ -1206,6 +1311,7 @@
   {
     "id": 406,
     "hanzi": "或者",
+    "hanzi_traditional": "或者",
     "pinyin": "huò zhě",
     "translations": [
       "or",
@@ -1217,6 +1323,7 @@
   {
     "id": 407,
     "hanzi": "机会",
+    "hanzi_traditional": "機會",
     "pinyin": "jī huì",
     "translations": [
       "opportunity",
@@ -1228,6 +1335,7 @@
   {
     "id": 408,
     "hanzi": "几乎",
+    "hanzi_traditional": "幾乎",
     "pinyin": "jī hū",
     "translations": [
       "almost",
@@ -1238,6 +1346,7 @@
   {
     "id": 409,
     "hanzi": "极",
+    "hanzi_traditional": "極",
     "pinyin": "jí",
     "translations": [
       "extremely",
@@ -1250,6 +1359,7 @@
   {
     "id": 410,
     "hanzi": "记得",
+    "hanzi_traditional": "記得",
     "pinyin": "jì de",
     "translations": [
       "to remember"
@@ -1258,6 +1368,7 @@
   {
     "id": 411,
     "hanzi": "季节",
+    "hanzi_traditional": "季節",
     "pinyin": "jì jié",
     "translations": [
       "time",
@@ -1269,6 +1380,7 @@
   {
     "id": 412,
     "hanzi": "检查",
+    "hanzi_traditional": "檢查",
     "pinyin": "jiǎn chá",
     "translations": [
       "inspection",
@@ -1280,6 +1392,7 @@
   {
     "id": 413,
     "hanzi": "简单",
+    "hanzi_traditional": "簡單",
     "pinyin": "jiǎn dān",
     "translations": [
       "simple",
@@ -1289,6 +1402,7 @@
   {
     "id": 414,
     "hanzi": "见面",
+    "hanzi_traditional": "見面",
     "pinyin": "jiàn miàn",
     "translations": [
       "to meet",
@@ -1299,6 +1413,7 @@
   {
     "id": 415,
     "hanzi": "健康",
+    "hanzi_traditional": "健康",
     "pinyin": "jiàn kāng",
     "translations": [
       "health",
@@ -1308,6 +1423,7 @@
   {
     "id": 416,
     "hanzi": "讲",
+    "hanzi_traditional": "講",
     "pinyin": "jiǎng",
     "translations": [
       "to speak",
@@ -1323,6 +1439,7 @@
   {
     "id": 417,
     "hanzi": "教",
+    "hanzi_traditional": "教",
     "pinyin": "jiāo",
     "translations": [
       "to teach"
@@ -1331,6 +1448,7 @@
   {
     "id": 418,
     "hanzi": "脚",
+    "hanzi_traditional": "腳",
     "pinyin": "jiǎo",
     "translations": [
       "foot",
@@ -1344,6 +1462,7 @@
   {
     "id": 419,
     "hanzi": "角",
+    "hanzi_traditional": "角",
     "pinyin": "jiǎo",
     "translations": [
       "angle",
@@ -1357,6 +1476,7 @@
   {
     "id": 420,
     "hanzi": "接",
+    "hanzi_traditional": "接",
     "pinyin": "jiē",
     "translations": [
       "to receive",
@@ -1373,6 +1493,7 @@
   {
     "id": 421,
     "hanzi": "街道",
+    "hanzi_traditional": "街道",
     "pinyin": "jiē dào",
     "translations": [
       "street",
@@ -1384,6 +1505,7 @@
   {
     "id": 422,
     "hanzi": "节目",
+    "hanzi_traditional": "節目",
     "pinyin": "jié mù",
     "translations": [
       "program",
@@ -1396,6 +1518,7 @@
   {
     "id": 423,
     "hanzi": "节日",
+    "hanzi_traditional": "節日",
     "pinyin": "jié rì",
     "translations": [
       "holiday",
@@ -1406,6 +1529,7 @@
   {
     "id": 424,
     "hanzi": "结婚",
+    "hanzi_traditional": "結婚",
     "pinyin": "jié hūn",
     "translations": [
       "to marry",
@@ -1416,6 +1540,7 @@
   {
     "id": 425,
     "hanzi": "结束",
+    "hanzi_traditional": "結束",
     "pinyin": "jié shù",
     "translations": [
       "termination",
@@ -1428,6 +1553,7 @@
   {
     "id": 426,
     "hanzi": "解决",
+    "hanzi_traditional": "解決",
     "pinyin": "jiě jué",
     "translations": [
       "to settle (a dispute)",
@@ -1440,6 +1566,7 @@
   {
     "id": 427,
     "hanzi": "借",
+    "hanzi_traditional": "借",
     "pinyin": "jiè",
     "translations": [
       "to lend",
@@ -1451,6 +1578,7 @@
   {
     "id": 428,
     "hanzi": "经常",
+    "hanzi_traditional": "經常",
     "pinyin": "jīng cháng",
     "translations": [
       "day to day",
@@ -1465,6 +1593,7 @@
   {
     "id": 429,
     "hanzi": "经过",
+    "hanzi_traditional": "經過",
     "pinyin": "jīng guò",
     "translations": [
       "to pass",
@@ -1477,6 +1606,7 @@
   {
     "id": 430,
     "hanzi": "经理",
+    "hanzi_traditional": "經理",
     "pinyin": "jīng lǐ",
     "translations": [
       "manager",
@@ -1489,6 +1619,7 @@
   {
     "id": 431,
     "hanzi": "久",
+    "hanzi_traditional": "久",
     "pinyin": "jiǔ",
     "translations": [
       "(long) time",
@@ -1498,6 +1629,7 @@
   {
     "id": 432,
     "hanzi": "旧",
+    "hanzi_traditional": "舊",
     "pinyin": "jiù",
     "translations": [
       "old",
@@ -1509,6 +1641,7 @@
   {
     "id": 433,
     "hanzi": "举行",
+    "hanzi_traditional": "舉行",
     "pinyin": "jǔ xíng",
     "translations": [
       "to hold (a meeting",
@@ -1518,6 +1651,7 @@
   {
     "id": 434,
     "hanzi": "句子",
+    "hanzi_traditional": "句子",
     "pinyin": "jù zi",
     "translations": [
       "sentence",
@@ -1527,6 +1661,7 @@
   {
     "id": 435,
     "hanzi": "决定",
+    "hanzi_traditional": "決定",
     "pinyin": "jué dìng",
     "translations": [
       "to decide (to do something)",
@@ -1540,6 +1675,7 @@
   {
     "id": 436,
     "hanzi": "渴",
+    "hanzi_traditional": "渴",
     "pinyin": "kě",
     "translations": [
       "thirsty"
@@ -1548,6 +1684,7 @@
   {
     "id": 437,
     "hanzi": "可爱",
+    "hanzi_traditional": "可愛",
     "pinyin": "kě ài",
     "translations": [
       "adorable",
@@ -1558,6 +1695,7 @@
   {
     "id": 438,
     "hanzi": "刻",
+    "hanzi_traditional": "刻",
     "pinyin": "kè",
     "translations": [
       "quarter (hour)",
@@ -1572,6 +1710,7 @@
   {
     "id": 439,
     "hanzi": "客人",
+    "hanzi_traditional": "客人",
     "pinyin": "kè rén",
     "translations": [
       "visitor",
@@ -1584,6 +1723,7 @@
   {
     "id": 440,
     "hanzi": "空调",
+    "hanzi_traditional": "空調",
     "pinyin": "kōng tiáo",
     "translations": [
       "air conditioning"
@@ -1592,6 +1732,7 @@
   {
     "id": 441,
     "hanzi": "口",
+    "hanzi_traditional": "口",
     "pinyin": "kǒu",
     "translations": [
       "mouth",
@@ -1605,6 +1746,7 @@
   {
     "id": 442,
     "hanzi": "哭",
+    "hanzi_traditional": "哭",
     "pinyin": "kū",
     "translations": [
       "to cry",
@@ -1614,6 +1756,7 @@
   {
     "id": 443,
     "hanzi": "裤子",
+    "hanzi_traditional": "褲子",
     "pinyin": "kù zi",
     "translations": [
       "trousers",
@@ -1624,6 +1767,7 @@
   {
     "id": 444,
     "hanzi": "筷子",
+    "hanzi_traditional": "筷子",
     "pinyin": "kuài zi",
     "translations": [
       "chopsticks",
@@ -1636,6 +1780,7 @@
   {
     "id": 445,
     "hanzi": "蓝",
+    "hanzi_traditional": "藍",
     "pinyin": "lán",
     "translations": [
       "blue",
@@ -1645,6 +1790,7 @@
   {
     "id": 446,
     "hanzi": "老",
+    "hanzi_traditional": "老",
     "pinyin": "lǎo",
     "translations": [
       "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity",
@@ -1663,6 +1809,7 @@
   {
     "id": 447,
     "hanzi": "离开",
+    "hanzi_traditional": "離開",
     "pinyin": "lí kāi",
     "translations": [
       "to depart",
@@ -1672,6 +1819,7 @@
   {
     "id": 448,
     "hanzi": "礼物",
+    "hanzi_traditional": "禮物",
     "pinyin": "lǐ wù",
     "translations": [
       "gift",
@@ -1684,6 +1832,7 @@
   {
     "id": 449,
     "hanzi": "历史",
+    "hanzi_traditional": "歷史",
     "pinyin": "lì shǐ",
     "translations": [
       "history",
@@ -1694,6 +1843,7 @@
   {
     "id": 450,
     "hanzi": "脸",
+    "hanzi_traditional": "臉",
     "pinyin": "liǎn",
     "translations": [
       "face",
@@ -1704,6 +1854,7 @@
   {
     "id": 451,
     "hanzi": "练习",
+    "hanzi_traditional": "練習",
     "pinyin": "liàn xí",
     "translations": [
       "exercise",
@@ -1715,6 +1866,7 @@
   {
     "id": 452,
     "hanzi": "辆",
+    "hanzi_traditional": "輛",
     "pinyin": "liàng",
     "translations": [
       "classifier for vehicles"
@@ -1723,6 +1875,7 @@
   {
     "id": 453,
     "hanzi": "了解",
+    "hanzi_traditional": "了解",
     "pinyin": "liǎo jiě",
     "translations": [
       "to understand",
@@ -1733,6 +1886,7 @@
   {
     "id": 454,
     "hanzi": "邻居",
+    "hanzi_traditional": "鄰居",
     "pinyin": "lín jū",
     "translations": [
       "neighbor",
@@ -1743,6 +1897,7 @@
   {
     "id": 455,
     "hanzi": "楼",
+    "hanzi_traditional": "樓",
     "pinyin": "lóu",
     "translations": [
       "house with more than 1 story",
@@ -1756,6 +1911,7 @@
   {
     "id": 456,
     "hanzi": "绿",
+    "hanzi_traditional": "綠",
     "pinyin": "lǜ",
     "translations": [
       "green"
@@ -1764,6 +1920,7 @@
   {
     "id": 457,
     "hanzi": "马",
+    "hanzi_traditional": "馬",
     "pinyin": "mǎ",
     "translations": [
       "horse",
@@ -1775,6 +1932,7 @@
   {
     "id": 458,
     "hanzi": "马上",
+    "hanzi_traditional": "馬上",
     "pinyin": "mǎ shàng",
     "translations": [
       "at once",
@@ -1786,6 +1944,7 @@
   {
     "id": 459,
     "hanzi": "满意",
+    "hanzi_traditional": "滿意",
     "pinyin": "mǎn yì",
     "translations": [
       "satisfied",
@@ -1796,6 +1955,7 @@
   {
     "id": 460,
     "hanzi": "帽子",
+    "hanzi_traditional": "帽子",
     "pinyin": "mào zi",
     "translations": [
       "hat",
@@ -1808,6 +1968,7 @@
   {
     "id": 461,
     "hanzi": "米",
+    "hanzi_traditional": "米",
     "pinyin": "mǐ",
     "translations": [
       "rice",
@@ -1818,6 +1979,7 @@
   {
     "id": 462,
     "hanzi": "面包",
+    "hanzi_traditional": "麵包",
     "pinyin": "miàn bāo",
     "translations": [
       "bread",
@@ -1829,6 +1991,7 @@
   {
     "id": 463,
     "hanzi": "面条",
+    "hanzi_traditional": "麵條",
     "pinyin": "miàn tiáo",
     "translations": [
       "noodles"
@@ -1837,6 +2000,7 @@
   {
     "id": 464,
     "hanzi": "明白",
+    "hanzi_traditional": "明白",
     "pinyin": "míng bai",
     "translations": [
       "clear",
@@ -1849,6 +2013,7 @@
   {
     "id": 465,
     "hanzi": "拿",
+    "hanzi_traditional": "㧱",
     "pinyin": "ná",
     "translations": [
       "to hold",
@@ -1861,6 +2026,7 @@
   {
     "id": 466,
     "hanzi": "奶奶",
+    "hanzi_traditional": "奶奶",
     "pinyin": "nǎi nai",
     "translations": [
       "(informal) grandma (paternal grandmother)",
@@ -1871,6 +2037,7 @@
   {
     "id": 467,
     "hanzi": "南",
+    "hanzi_traditional": "南",
     "pinyin": "nán",
     "translations": [
       "south"
@@ -1879,6 +2046,7 @@
   {
     "id": 468,
     "hanzi": "难",
+    "hanzi_traditional": "難",
     "pinyin": "nán",
     "translations": [
       "difficult (to...)",
@@ -1891,6 +2059,7 @@
   {
     "id": 469,
     "hanzi": "难过",
+    "hanzi_traditional": "難過",
     "pinyin": "nán guò",
     "translations": [
       "to feel sad",
@@ -1901,6 +2070,7 @@
   {
     "id": 470,
     "hanzi": "年级",
+    "hanzi_traditional": "年級",
     "pinyin": "nián jí",
     "translations": [
       "grade",
@@ -1910,6 +2080,7 @@
   {
     "id": 471,
     "hanzi": "年轻",
+    "hanzi_traditional": "年輕",
     "pinyin": "nián qīng",
     "translations": [
       "young"
@@ -1918,6 +2089,7 @@
   {
     "id": 472,
     "hanzi": "鸟",
+    "hanzi_traditional": "鳥",
     "pinyin": "niǎo",
     "translations": [
       "bird",
@@ -1928,6 +2100,7 @@
   {
     "id": 473,
     "hanzi": "努力",
+    "hanzi_traditional": "努力",
     "pinyin": "nǔ lì",
     "translations": [
       "great effort",
@@ -1938,6 +2111,7 @@
   {
     "id": 474,
     "hanzi": "爬山",
+    "hanzi_traditional": "爬山",
     "pinyin": "pá shān",
     "translations": [
       "to climb a mountain",
@@ -1949,6 +2123,7 @@
   {
     "id": 475,
     "hanzi": "盘子",
+    "hanzi_traditional": "盤子",
     "pinyin": "pán zi",
     "translations": [
       "tray",
@@ -1960,6 +2135,7 @@
   {
     "id": 476,
     "hanzi": "胖",
+    "hanzi_traditional": "胖",
     "pinyin": "pàng",
     "translations": [
       "fat",
@@ -1969,6 +2145,7 @@
   {
     "id": 477,
     "hanzi": "啤酒",
+    "hanzi_traditional": "啤酒",
     "pinyin": "pí jiǔ",
     "translations": [
       "beer",
@@ -1982,6 +2159,7 @@
   {
     "id": 478,
     "hanzi": "葡萄",
+    "hanzi_traditional": "葡萄",
     "pinyin": "pú tao",
     "translations": [
       "grape"
@@ -1990,6 +2168,7 @@
   {
     "id": 479,
     "hanzi": "普通话",
+    "hanzi_traditional": "普通話",
     "pinyin": "pǔ tōng huà",
     "translations": [
       "Mandarin (common language)",
@@ -2000,6 +2179,7 @@
   {
     "id": 480,
     "hanzi": "骑",
+    "hanzi_traditional": "騎",
     "pinyin": "qí",
     "translations": [
       "to ride (an animal or bike)",
@@ -2009,6 +2189,7 @@
   {
     "id": 481,
     "hanzi": "其实",
+    "hanzi_traditional": "其實",
     "pinyin": "qí shí",
     "translations": [
       "actually",
@@ -2019,6 +2200,7 @@
   {
     "id": 482,
     "hanzi": "其他",
+    "hanzi_traditional": "其他",
     "pinyin": "qí tā",
     "translations": [
       "other",
@@ -2031,6 +2213,7 @@
   {
     "id": 483,
     "hanzi": "奇怪",
+    "hanzi_traditional": "奇怪",
     "pinyin": "qí guài",
     "translations": [
       "strange",
@@ -2042,6 +2225,7 @@
   {
     "id": 484,
     "hanzi": "铅笔",
+    "hanzi_traditional": "鉛筆",
     "pinyin": "qiān bǐ",
     "translations": [
       "(lead) pencil",
@@ -2053,6 +2237,7 @@
   {
     "id": 485,
     "hanzi": "清楚",
+    "hanzi_traditional": "清楚",
     "pinyin": "qīng chu",
     "translations": [
       "clear",
@@ -2064,6 +2249,7 @@
   {
     "id": 486,
     "hanzi": "秋",
+    "hanzi_traditional": "秋",
     "pinyin": "qiū",
     "translations": [
       "a swing"
@@ -2072,6 +2258,7 @@
   {
     "id": 487,
     "hanzi": "裙子",
+    "hanzi_traditional": "裙子",
     "pinyin": "qún zi",
     "translations": [
       "skirt",
@@ -2081,6 +2268,7 @@
   {
     "id": 488,
     "hanzi": "然后",
+    "hanzi_traditional": "然後",
     "pinyin": "rán hòu",
     "translations": [
       "after",
@@ -2092,6 +2280,7 @@
   {
     "id": 489,
     "hanzi": "热情",
+    "hanzi_traditional": "熱情",
     "pinyin": "rè qíng",
     "translations": [
       "cordial",
@@ -2104,6 +2293,7 @@
   {
     "id": 490,
     "hanzi": "认为",
+    "hanzi_traditional": "認為",
     "pinyin": "rèn wéi",
     "translations": [
       "to believe",
@@ -2115,6 +2305,7 @@
   {
     "id": 491,
     "hanzi": "认真",
+    "hanzi_traditional": "認真",
     "pinyin": "rèn zhēn",
     "translations": [
       "conscientious",
@@ -2127,6 +2318,7 @@
   {
     "id": 492,
     "hanzi": "容易",
+    "hanzi_traditional": "容易",
     "pinyin": "róng yì",
     "translations": [
       "easy",
@@ -2137,6 +2329,7 @@
   {
     "id": 493,
     "hanzi": "如果",
+    "hanzi_traditional": "如果",
     "pinyin": "rú guǒ",
     "translations": [
       "if",
@@ -2147,6 +2340,7 @@
   {
     "id": 494,
     "hanzi": "伞",
+    "hanzi_traditional": "傘",
     "pinyin": "sǎn",
     "translations": [
       "umbrella",
@@ -2157,6 +2351,7 @@
   {
     "id": 495,
     "hanzi": "上网",
+    "hanzi_traditional": "上網",
     "pinyin": "shàng wǎng",
     "translations": [
       "to be on the internet",
@@ -2167,6 +2362,7 @@
   {
     "id": 496,
     "hanzi": "生气",
+    "hanzi_traditional": "生氣",
     "pinyin": "shēng qì",
     "translations": [
       "angry",
@@ -2182,6 +2378,7 @@
   {
     "id": 497,
     "hanzi": "声音",
+    "hanzi_traditional": "聲音",
     "pinyin": "shēng yīn",
     "translations": [
       "voice",
@@ -2192,6 +2389,7 @@
   {
     "id": 498,
     "hanzi": "使",
+    "hanzi_traditional": "使",
     "pinyin": "shǐ",
     "translations": [
       "to make",
@@ -2208,6 +2406,7 @@
   {
     "id": 499,
     "hanzi": "世界",
+    "hanzi_traditional": "世界",
     "pinyin": "shì jiè",
     "translations": [
       "world",
@@ -2217,6 +2416,7 @@
   {
     "id": 500,
     "hanzi": "瘦",
+    "hanzi_traditional": "瘦",
     "pinyin": "shòu",
     "translations": [
       "thin",
@@ -2229,6 +2429,7 @@
   {
     "id": 501,
     "hanzi": "舒服",
+    "hanzi_traditional": "舒服",
     "pinyin": "shū fu",
     "translations": [
       "comfortable",
@@ -2238,6 +2439,7 @@
   {
     "id": 502,
     "hanzi": "叔叔",
+    "hanzi_traditional": "叔叔",
     "pinyin": "shū shu",
     "translations": [
       "father's younger brother",
@@ -2249,6 +2451,7 @@
   {
     "id": 503,
     "hanzi": "树",
+    "hanzi_traditional": "樹",
     "pinyin": "shù",
     "translations": [
       "tree",
@@ -2260,6 +2463,7 @@
   {
     "id": 504,
     "hanzi": "数学",
+    "hanzi_traditional": "數學",
     "pinyin": "shù xué",
     "translations": [
       "mathematics",
@@ -2269,6 +2473,7 @@
   {
     "id": 505,
     "hanzi": "刷",
+    "hanzi_traditional": "刷",
     "pinyin": "shuā",
     "translations": [
       "to brush",
@@ -2282,6 +2487,7 @@
   {
     "id": 506,
     "hanzi": "双",
+    "hanzi_traditional": "雙",
     "pinyin": "shuāng",
     "translations": [
       "two",
@@ -2293,6 +2499,7 @@
   {
     "id": 507,
     "hanzi": "水平",
+    "hanzi_traditional": "水平",
     "pinyin": "shuǐ píng",
     "translations": [
       "level (of achievement etc)",
@@ -2303,6 +2510,7 @@
   {
     "id": 508,
     "hanzi": "司机",
+    "hanzi_traditional": "司機",
     "pinyin": "sī jī",
     "translations": [
       "chauffeur",
@@ -2313,6 +2521,7 @@
   {
     "id": 509,
     "hanzi": "虽然",
+    "hanzi_traditional": "雖然",
     "pinyin": "suī rán",
     "translations": [
       "although",
@@ -2323,6 +2532,7 @@
   {
     "id": 510,
     "hanzi": "太阳",
+    "hanzi_traditional": "太陽",
     "pinyin": "tài yáng",
     "translations": [
       "sun",
@@ -2332,6 +2542,7 @@
   {
     "id": 511,
     "hanzi": "糖",
+    "hanzi_traditional": "糖",
     "pinyin": "táng",
     "translations": [
       "sugar",
@@ -2344,6 +2555,7 @@
   {
     "id": 512,
     "hanzi": "特别",
+    "hanzi_traditional": "特別",
     "pinyin": "tè bié",
     "translations": [
       "especially",
@@ -2355,6 +2567,7 @@
   {
     "id": 513,
     "hanzi": "疼",
+    "hanzi_traditional": "疼",
     "pinyin": "téng",
     "translations": [
       "(it) hurts",
@@ -2365,6 +2578,7 @@
   {
     "id": 514,
     "hanzi": "提高",
+    "hanzi_traditional": "提高",
     "pinyin": "tí gāo",
     "translations": [
       "to raise",
@@ -2374,6 +2588,7 @@
   {
     "id": 515,
     "hanzi": "体育",
+    "hanzi_traditional": "體育",
     "pinyin": "tǐ yù",
     "translations": [
       "sports",
@@ -2383,6 +2598,7 @@
   {
     "id": 516,
     "hanzi": "甜",
+    "hanzi_traditional": "甜",
     "pinyin": "tián",
     "translations": [
       "sweet"
@@ -2391,6 +2607,7 @@
   {
     "id": 517,
     "hanzi": "条",
+    "hanzi_traditional": "條",
     "pinyin": "tiáo",
     "translations": [
       "strip",
@@ -2406,6 +2623,7 @@
   {
     "id": 518,
     "hanzi": "同事",
+    "hanzi_traditional": "同事",
     "pinyin": "tóng shì",
     "translations": [
       "colleague",
@@ -2417,6 +2635,7 @@
   {
     "id": 519,
     "hanzi": "同意",
+    "hanzi_traditional": "同意",
     "pinyin": "tóng yì",
     "translations": [
       "to agree",
@@ -2427,6 +2646,7 @@
   {
     "id": 520,
     "hanzi": "头发",
+    "hanzi_traditional": "頭髮",
     "pinyin": "tóu fa",
     "translations": [
       "hair (on the head)"
@@ -2435,6 +2655,7 @@
   {
     "id": 521,
     "hanzi": "突然",
+    "hanzi_traditional": "突然",
     "pinyin": "tū rán",
     "translations": [
       "sudden",
@@ -2445,6 +2666,7 @@
   {
     "id": 522,
     "hanzi": "图书馆",
+    "hanzi_traditional": "圖書館",
     "pinyin": "tú shū guǎn",
     "translations": [
       "library",
@@ -2455,6 +2677,7 @@
   {
     "id": 523,
     "hanzi": "腿",
+    "hanzi_traditional": "腿",
     "pinyin": "tuǐ",
     "translations": [
       "leg",
@@ -2464,6 +2687,7 @@
   {
     "id": 524,
     "hanzi": "完成",
+    "hanzi_traditional": "完成",
     "pinyin": "wán chéng",
     "translations": [
       "to complete",
@@ -2473,6 +2697,7 @@
   {
     "id": 525,
     "hanzi": "碗",
+    "hanzi_traditional": "㼝",
     "pinyin": "wǎn",
     "translations": [
       "bowl",
@@ -2484,6 +2709,7 @@
   {
     "id": 526,
     "hanzi": "万",
+    "hanzi_traditional": "万",
     "pinyin": "wàn",
     "translations": [
       "ten thousand",
@@ -2493,6 +2719,7 @@
   {
     "id": 527,
     "hanzi": "忘记",
+    "hanzi_traditional": "忘記",
     "pinyin": "wàng jì",
     "translations": [
       "to forget"
@@ -2501,6 +2728,7 @@
   {
     "id": 528,
     "hanzi": "为了",
+    "hanzi_traditional": "為了",
     "pinyin": "wèi le",
     "translations": [
       "in order to",
@@ -2511,6 +2739,7 @@
   {
     "id": 529,
     "hanzi": "为什么",
+    "hanzi_traditional": "為什麼",
     "pinyin": "wèi shén me",
     "translations": [
       "why?",
@@ -2520,6 +2749,7 @@
   {
     "id": 530,
     "hanzi": "位",
+    "hanzi_traditional": "位",
     "pinyin": "wèi",
     "translations": [
       "position",
@@ -2533,6 +2763,7 @@
   {
     "id": 531,
     "hanzi": "文化",
+    "hanzi_traditional": "文化",
     "pinyin": "wén huà",
     "translations": [
       "culture",
@@ -2545,6 +2776,7 @@
   {
     "id": 532,
     "hanzi": "西",
+    "hanzi_traditional": "西",
     "pinyin": "xī",
     "translations": [
       "west"
@@ -2553,6 +2785,7 @@
   {
     "id": 533,
     "hanzi": "习惯",
+    "hanzi_traditional": "習慣",
     "pinyin": "xí guàn",
     "translations": [
       "habit",
@@ -2565,6 +2798,7 @@
   {
     "id": 534,
     "hanzi": "洗手间",
+    "hanzi_traditional": "洗手間",
     "pinyin": "xǐ shǒu jiān",
     "translations": [
       "toilet",
@@ -2575,6 +2809,7 @@
   {
     "id": 535,
     "hanzi": "洗澡",
+    "hanzi_traditional": "洗澡",
     "pinyin": "xǐ zǎo",
     "translations": [
       "to bathe",
@@ -2584,6 +2819,7 @@
   {
     "id": 536,
     "hanzi": "夏",
+    "hanzi_traditional": "夏",
     "pinyin": "xià",
     "translations": [
       "summer"
@@ -2592,6 +2828,7 @@
   {
     "id": 537,
     "hanzi": "先",
+    "hanzi_traditional": "先",
     "pinyin": "xiān",
     "translations": [
       "early",
@@ -2604,6 +2841,7 @@
   {
     "id": 538,
     "hanzi": "香蕉",
+    "hanzi_traditional": "香蕉",
     "pinyin": "xiāng jiāo",
     "translations": [
       "banana",
@@ -2616,6 +2854,7 @@
   {
     "id": 539,
     "hanzi": "相同",
+    "hanzi_traditional": "相同",
     "pinyin": "xiāng tóng",
     "translations": [
       "identical",
@@ -2625,6 +2864,7 @@
   {
     "id": 540,
     "hanzi": "相信",
+    "hanzi_traditional": "相信",
     "pinyin": "xiāng xìn",
     "translations": [
       "to be convinced (that sth is true)",
@@ -2635,6 +2875,7 @@
   {
     "id": 541,
     "hanzi": "像",
+    "hanzi_traditional": "像",
     "pinyin": "xiàng",
     "translations": [
       "to resemble",
@@ -2650,6 +2891,7 @@
   {
     "id": 542,
     "hanzi": "小心",
+    "hanzi_traditional": "小心",
     "pinyin": "xiǎo xīn",
     "translations": [
       "to be careful",
@@ -2659,6 +2901,7 @@
   {
     "id": 543,
     "hanzi": "校长",
+    "hanzi_traditional": "校長",
     "pinyin": "xiào zhǎng",
     "translations": [
       "(college",
@@ -2672,6 +2915,7 @@
   {
     "id": 544,
     "hanzi": "鞋",
+    "hanzi_traditional": "鞋",
     "pinyin": "xié",
     "translations": [
       "shoe",
@@ -2682,6 +2926,7 @@
   {
     "id": 545,
     "hanzi": "新闻",
+    "hanzi_traditional": "新聞",
     "pinyin": "xīn wén",
     "translations": [
       "news",
@@ -2692,6 +2937,7 @@
   {
     "id": 546,
     "hanzi": "新鲜",
+    "hanzi_traditional": "新鮮",
     "pinyin": "xīn xiān",
     "translations": [
       "fresh (experience",
@@ -2704,6 +2950,7 @@
   {
     "id": 547,
     "hanzi": "信",
+    "hanzi_traditional": "信",
     "pinyin": "xìn",
     "translations": [
       "letter",
@@ -2722,6 +2969,7 @@
   {
     "id": 548,
     "hanzi": "行李箱",
+    "hanzi_traditional": "行李箱",
     "pinyin": "xíng li xiāng",
     "translations": [
       "suitcase"
@@ -2730,6 +2978,7 @@
   {
     "id": 549,
     "hanzi": "兴趣",
+    "hanzi_traditional": "興趣",
     "pinyin": "xìng qù",
     "translations": [
       "interest (desire to know about sth)",
@@ -2741,6 +2990,7 @@
   {
     "id": 550,
     "hanzi": "熊猫",
+    "hanzi_traditional": "熊貓",
     "pinyin": "xióng māo",
     "translations": [
       "panda",
@@ -2750,6 +3000,7 @@
   {
     "id": 551,
     "hanzi": "需要",
+    "hanzi_traditional": "需要",
     "pinyin": "xū yào",
     "translations": [
       "to need",
@@ -2763,6 +3014,7 @@
   {
     "id": 552,
     "hanzi": "选择",
+    "hanzi_traditional": "選擇",
     "pinyin": "xuǎn zé",
     "translations": [
       "to select",
@@ -2775,6 +3027,7 @@
   {
     "id": 553,
     "hanzi": "眼镜",
+    "hanzi_traditional": "眼鏡",
     "pinyin": "yǎn jìng",
     "translations": [
       "spectacles",
@@ -2785,6 +3038,7 @@
   {
     "id": 554,
     "hanzi": "要求",
+    "hanzi_traditional": "要求",
     "pinyin": "yāo qiú",
     "translations": [
       "to request",
@@ -2798,6 +3052,7 @@
   {
     "id": 555,
     "hanzi": "爷爷",
+    "hanzi_traditional": "爺爺",
     "pinyin": "yé ye",
     "translations": [
       "(informal) father's father",
@@ -2808,6 +3063,7 @@
   {
     "id": 556,
     "hanzi": "一定",
+    "hanzi_traditional": "一定",
     "pinyin": "yī dìng",
     "translations": [
       "surely",
@@ -2823,6 +3079,7 @@
   {
     "id": 557,
     "hanzi": "一共",
+    "hanzi_traditional": "一共",
     "pinyin": "yī gòng",
     "translations": [
       "altogether"
@@ -2831,6 +3088,7 @@
   {
     "id": 558,
     "hanzi": "一会儿",
+    "hanzi_traditional": "一會兒",
     "pinyin": "yī huì r",
     "translations": [
       "a while",
@@ -2840,6 +3098,7 @@
   {
     "id": 559,
     "hanzi": "一样",
+    "hanzi_traditional": "一樣",
     "pinyin": "yī yàng",
     "translations": [
       "same",
@@ -2852,6 +3111,7 @@
   {
     "id": 560,
     "hanzi": "以后",
+    "hanzi_traditional": "以後",
     "pinyin": "yǐ hòu",
     "translations": [
       "after",
@@ -2865,6 +3125,7 @@
   {
     "id": 561,
     "hanzi": "以前",
+    "hanzi_traditional": "以前",
     "pinyin": "yǐ qián",
     "translations": [
       "before",
@@ -2876,6 +3137,7 @@
   {
     "id": 562,
     "hanzi": "以为",
+    "hanzi_traditional": "以為",
     "pinyin": "yǐ wéi",
     "translations": [
       "to believe",
@@ -2887,6 +3149,7 @@
   {
     "id": 563,
     "hanzi": "一般",
+    "hanzi_traditional": "一般",
     "pinyin": "yī bān",
     "translations": [
       "same",
@@ -2901,6 +3164,7 @@
   {
     "id": 564,
     "hanzi": "一边",
+    "hanzi_traditional": "一邊",
     "pinyin": "yī biān",
     "translations": [
       "one side",
@@ -2913,6 +3177,7 @@
   {
     "id": 565,
     "hanzi": "一直",
+    "hanzi_traditional": "一直",
     "pinyin": "yī zhí",
     "translations": [
       "straight (in a straight line)",
@@ -2925,6 +3190,7 @@
   {
     "id": 566,
     "hanzi": "音乐",
+    "hanzi_traditional": "音樂",
     "pinyin": "yīn yuè",
     "translations": [
       "music",
@@ -2936,6 +3202,7 @@
   {
     "id": 567,
     "hanzi": "银行",
+    "hanzi_traditional": "銀行",
     "pinyin": "yín háng",
     "translations": [
       "bank",
@@ -2946,6 +3213,7 @@
   {
     "id": 568,
     "hanzi": "应该",
+    "hanzi_traditional": "應該",
     "pinyin": "yīng gāi",
     "translations": [
       "ought to",
@@ -2956,6 +3224,7 @@
   {
     "id": 569,
     "hanzi": "影响",
+    "hanzi_traditional": "影響",
     "pinyin": "yǐng xiǎng",
     "translations": [
       "an influence",
@@ -2969,6 +3238,7 @@
   {
     "id": 570,
     "hanzi": "用",
+    "hanzi_traditional": "用",
     "pinyin": "yòng",
     "translations": [
       "to use",
@@ -2984,6 +3254,7 @@
   {
     "id": 571,
     "hanzi": "游戏",
+    "hanzi_traditional": "游戲池",
     "pinyin": "yóu xì",
     "translations": [
       "game",
@@ -2994,6 +3265,7 @@
   {
     "id": 572,
     "hanzi": "有名",
+    "hanzi_traditional": "有名",
     "pinyin": "yǒu míng",
     "translations": [
       "famous",
@@ -3003,6 +3275,7 @@
   {
     "id": 573,
     "hanzi": "又",
+    "hanzi_traditional": "又",
     "pinyin": "yòu",
     "translations": [
       "(once) again",
@@ -3015,6 +3288,7 @@
   {
     "id": 574,
     "hanzi": "遇到",
+    "hanzi_traditional": "遇到",
     "pinyin": "yù dào",
     "translations": [
       "to meet",
@@ -3025,6 +3299,7 @@
   {
     "id": 575,
     "hanzi": "愿意",
+    "hanzi_traditional": "願意",
     "pinyin": "yuàn yì",
     "translations": [
       "to wish",
@@ -3036,6 +3311,7 @@
   {
     "id": 576,
     "hanzi": "越",
+    "hanzi_traditional": "越",
     "pinyin": "yuè",
     "translations": [
       "to exceed",
@@ -3047,6 +3323,7 @@
   {
     "id": 577,
     "hanzi": "月亮",
+    "hanzi_traditional": "月亮",
     "pinyin": "yuè liang",
     "translations": [
       "moon"
@@ -3055,6 +3332,7 @@
   {
     "id": 578,
     "hanzi": "云",
+    "hanzi_traditional": "云",
     "pinyin": "yún",
     "translations": [
       "cloud",
@@ -3064,6 +3342,7 @@
   {
     "id": 579,
     "hanzi": "站",
+    "hanzi_traditional": "站",
     "pinyin": "zhàn",
     "translations": [
       "station",
@@ -3077,6 +3356,7 @@
   {
     "id": 580,
     "hanzi": "着急",
+    "hanzi_traditional": "著急",
     "pinyin": "zháo jí",
     "translations": [
       "to worry",
@@ -3087,6 +3367,7 @@
   {
     "id": 581,
     "hanzi": "照顾",
+    "hanzi_traditional": "照顧",
     "pinyin": "zhào gu",
     "translations": [
       "to take care of",
@@ -3098,6 +3379,7 @@
   {
     "id": 582,
     "hanzi": "照片",
+    "hanzi_traditional": "照片",
     "pinyin": "zhào piàn",
     "translations": [
       "photograph",
@@ -3110,6 +3392,7 @@
   {
     "id": 583,
     "hanzi": "照相机",
+    "hanzi_traditional": "照相機",
     "pinyin": "zhào xiàng jī",
     "translations": [
       "camera",
@@ -3123,6 +3406,7 @@
   {
     "id": 584,
     "hanzi": "只",
+    "hanzi_traditional": "只",
     "pinyin": "zhī",
     "translations": [
       "classifier for birds and certain animals",
@@ -3134,6 +3418,7 @@
   {
     "id": 585,
     "hanzi": "只",
+    "hanzi_traditional": "只",
     "pinyin": "zhǐ",
     "translations": [
       "but",
@@ -3143,6 +3428,7 @@
   {
     "id": 586,
     "hanzi": "终于",
+    "hanzi_traditional": "終於",
     "pinyin": "zhōng yú",
     "translations": [
       "at last",
@@ -3154,6 +3440,7 @@
   {
     "id": 587,
     "hanzi": "中间",
+    "hanzi_traditional": "中間",
     "pinyin": "zhōng jiān",
     "translations": [
       "between",
@@ -3165,6 +3452,7 @@
   {
     "id": 588,
     "hanzi": "种",
+    "hanzi_traditional": "種",
     "pinyin": "zhǒng",
     "translations": [
       "abbr. for 物種|物种",
@@ -3186,6 +3474,7 @@
   {
     "id": 589,
     "hanzi": "重要",
+    "hanzi_traditional": "重要",
     "pinyin": "zhòng yào",
     "translations": [
       "important",
@@ -3196,6 +3485,7 @@
   {
     "id": 590,
     "hanzi": "周末",
+    "hanzi_traditional": "週末",
     "pinyin": "zhōu mò",
     "translations": [
       "weekend"
@@ -3204,6 +3494,7 @@
   {
     "id": 591,
     "hanzi": "主要",
+    "hanzi_traditional": "主要",
     "pinyin": "zhǔ yào",
     "translations": [
       "main",
@@ -3215,6 +3506,7 @@
   {
     "id": 592,
     "hanzi": "祝",
+    "hanzi_traditional": "祝",
     "pinyin": "zhù",
     "translations": [
       "to wish",
@@ -3226,6 +3518,7 @@
   {
     "id": 593,
     "hanzi": "注意",
+    "hanzi_traditional": "注意",
     "pinyin": "zhù yì",
     "translations": [
       "to take note of",
@@ -3235,6 +3528,7 @@
   {
     "id": 594,
     "hanzi": "字典",
+    "hanzi_traditional": "字典",
     "pinyin": "zì diǎn",
     "translations": [
       "dictionary",
@@ -3245,6 +3539,7 @@
   {
     "id": 595,
     "hanzi": "自己",
+    "hanzi_traditional": "自己",
     "pinyin": "zì jǐ",
     "translations": [
       "oneself",
@@ -3254,6 +3549,7 @@
   {
     "id": 596,
     "hanzi": "总是",
+    "hanzi_traditional": "總是",
     "pinyin": "zǒng shì",
     "translations": [
       "always"
@@ -3262,6 +3558,7 @@
   {
     "id": 597,
     "hanzi": "最近",
+    "hanzi_traditional": "最近",
     "pinyin": "zuì jìn",
     "translations": [
       "recent",
@@ -3276,6 +3573,7 @@
   {
     "id": 598,
     "hanzi": "作业",
+    "hanzi_traditional": "作業",
     "pinyin": "zuò yè",
     "translations": [
       "school assignment",
@@ -3290,6 +3588,7 @@
   {
     "id": 599,
     "hanzi": "作用",
+    "hanzi_traditional": "作用",
     "pinyin": "zuò yòng",
     "translations": [
       "to act on",

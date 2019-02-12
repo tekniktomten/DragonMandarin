@@ -12,6 +12,8 @@ import java.util.ArrayList;
 
 public abstract class Utility {
 
+    private static boolean simplified = true;
+
     private static ArrayList<Word> hardWords = new ArrayList<Word>();
 
     public static ArrayList<Word> getCEList(Context context) {
@@ -34,38 +36,25 @@ public abstract class Utility {
     public static ArrayList<Word> getHskList(int number, Context context) {
         ArrayList<Word> list = new ArrayList<Word>();
         JSONArray jsonArray = getHskJsonArray(number, context);
-        try {
-            for (int i = 0; i < jsonArray.length(); i++) {
-                JSONObject word = jsonArray.getJSONObject(i);
-                String hanzi = word.getString("hanzi");
-                String pinyin = word.getString("pinyin");
-                JSONArray t = word.getJSONArray("translations");
-                String measureWord = "";
-                String translations = "";
-                for (int j = 0; j < t.length(); j++) {
-                    String info = t.getString(j);
-                    if (info.contains("[") || info.contains("CL:")) { // TODO not working 100%
-                        measureWord += " " + info;
-                    }
-                    else {
-                        translations += " " + info;
-                    }
-                }
-                list.add(new Word(hanzi, pinyin, translations, "", measureWord));
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+        list = jsonToList(jsonArray);
         return list;
     }
 
-    public static ArrayList<Word> getAllHskList(Context context) { // TODO Duplicate code move to method
+    public static ArrayList<Word> getAllHskList(Context context) {
         ArrayList<Word> list = new ArrayList<Word>();
         JSONArray jsonArray = getAllHskJsonArray(context);
+        list = jsonToList(jsonArray);
+        return list;
+    }
+
+    private static ArrayList<Word> jsonToList(JSONArray jsonArray) {
+        ArrayList<Word> list = new ArrayList<Word>();
         try {
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject word = jsonArray.getJSONObject(i);
-                String hanzi = word.getString("hanzi");
+                String hanzi;
+                if (simplified) hanzi = word.getString("hanzi");
+                else hanzi = word.getString("hanzi_traditional");
                 String pinyin = word.getString("pinyin");
                 JSONArray t = word.getJSONArray("translations");
                 String measureWord = "";
