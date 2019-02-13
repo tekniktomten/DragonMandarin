@@ -4,6 +4,9 @@ import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -58,5 +61,41 @@ public class MainActivity extends AppCompatActivity {
                 overridePendingTransition( 0, R.anim.my_splash_fade_out );
             }
         });
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        MenuItem changeHanzi = menu.findItem(R.id.changeHanzi);
+        if (Utility.simplified) changeHanzi.setTitle("Change to traditional");
+        else changeHanzi.setTitle("Change to simplified");
+        return super.onPrepareOptionsMenu(menu);
+    }
+
+    // create an action bar button
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        MenuItem changeHanzi = menu.findItem(R.id.settings);
+        if (Utility.simplified) changeHanzi.setTitle("Change to traditional");
+        else changeHanzi.setTitle("Change to simplified");
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    // handle button activities
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id) {
+            case R.id.settings:
+                break;
+            case R.id.changeHanzi:
+                Utility.simplified = !Utility.simplified;
+                if (Utility.simplified) item.setTitle("Change to traditional");
+                else item.setTitle("Change to simplified");
+                break;
+            case R.id.licence:
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

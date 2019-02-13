@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public abstract class Utility {
 
-    private static boolean simplified = true;
+    public static boolean simplified = true;
 
     private static ArrayList<Word> hardWords = new ArrayList<Word>();
 
