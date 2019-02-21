@@ -149,4 +149,91 @@ public abstract class Utility {
     public static ArrayList<Word> gethardWords() {
         return new ArrayList<Word>(hardWords);
     }
+
+    public static String getNumberedPinyin(String original) { // TODO maybe add uppercase support?
+        // REMOVES DOTS OVER U
+        String numbered = "";
+        String[] words = original.split(" ");
+        for (String w : words) {
+            String word = w.toLowerCase();
+            if (word.contains("ā")) {
+                numbered += word.replace("ā", "a") + 1;
+            }
+            if (word.contains("á")) {
+                numbered += word.replace("á", "a") + 2;
+            }
+            if (word.contains("ǎ")) {
+                numbered += word.replace("ǎ", "a") + 3;
+            }
+            if (word.contains("à")) {
+                numbered += word.replace("à", "a") + 4;
+            }
+            if (word.contains("ē")) {
+                numbered += word.replace("ē", "e") + 1;
+            }
+            if (word.contains("é")) {
+                numbered += word.replace("é", "e") + 2;
+            }
+            if (word.contains("ě")) {
+                numbered += word.replace("ě", "e") + 3;
+            }
+            if (word.contains("è")) {
+                numbered += word.replace("è", "e") + 4;
+            }
+            if (word.contains("ī")) {
+                numbered += word.replace("ī", "i") + 1;
+            }
+            if (word.contains("í")) {
+                numbered += word.replace("í", "i") + 2;
+            }
+            if (word.contains("ǐ")) {
+                numbered += word.replace("ǐ", "i") + 3;
+            }
+            if (word.contains("ì")) {
+                numbered += word.replace("ì", "i") + 4;
+            }
+            if (word.contains("ō")) {
+                numbered += word.replace("ō", "o") + 1;
+            }
+            if (word.contains("ó")) {
+                numbered += word.replace("ó", "o") + 2;
+            }
+            if (word.contains("ǒ")) {
+                numbered += word.replace("ǒ", "o") + 3;
+            }
+            if (word.contains("ò")) {
+                numbered += word.replace("ò", "o") + 4;
+            }
+            if (word.contains("ū")) {
+                numbered += word.replace("ū", "u") + 1;
+            }
+            if (word.contains("ú")) {
+                numbered += word.replace("ú", "u") + 2;
+            }
+            if (word.contains("ǔ")) {
+                numbered += word.replace("ǔ", "u") + 3;
+            }
+            if (word.contains("ù")) {
+                numbered += word.replace("ù", "u") + 4;
+            }
+            if (word.contains("ǖ")) { // REMOVES DOTS FOR SIMPLICITY
+                numbered += word.replace("ǖ", "u") + 1;
+            }
+            if (word.contains("ǘ")) {
+                numbered += word.replace("ǘ", "u") + 2;
+            }
+            if (word.contains("ǚ")) {
+                numbered += word.replace("ǚ", "u") + 3;
+            }
+            if (word.contains("ǜ")) {
+                numbered += word.replace("ǜ", "u") + 4;
+            }
+            numbered += " ";
+        }
+        return numbered.trim();
+    }
+
+    public static String getSimplePinyin(String original) {
+        return getNumberedPinyin(original).replace("0", "").replace("1", "").replace("2", "").replace("3", "").replace("4", "").replace("5", "").replace("6", "").replace("7", "").replace("8", "").replace("9", "");
+    }
 }

@@ -89,10 +89,10 @@ public class WordListAdapter extends ArrayAdapter<Object> implements Filterable 
                     results.count = words.size();
                     results.values = words;
                 } else {
-                    constraint = constraint.toString().toLowerCase();
+                    constraint = constraint.toString().toLowerCase().replace(" ", "");
                     for (int i = 0; i < words.size(); i++) {
                         String d = words.get(i).getTranslations();
-                        String p = words.get(i).getPinyin();
+                        String p = Utility.getNumberedPinyin(words.get(i).getPinyin()).replace(" ", "");
                         String h = words.get(i).getHanzi();
                         if (d.toLowerCase().contains(constraint.toString()) || p.toLowerCase().contains(constraint.toString()) || h.contains(constraint.toString())) {
                             FilteredArrList.add(words.get(i));
